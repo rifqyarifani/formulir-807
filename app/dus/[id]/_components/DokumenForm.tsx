@@ -30,7 +30,7 @@ import * as z from "zod";
 interface Props {
   dokumen?: Dokumen;
   jenisBerkas?: JenisBerkas[];
-  dus?: Dus[];
+  dus?: Dus;
 }
 
 export default function ProfileForm({ dokumen, jenisBerkas, dus }: Props) {
@@ -43,12 +43,8 @@ export default function ProfileForm({ dokumen, jenisBerkas, dus }: Props) {
   async function onSubmit(values: z.infer<typeof dokumenSchema>) {
     try {
       setLoading(true);
-      if (dokumen) {
-        await axios.patch(`/api/arsip/${dokumen.id}`, values);
-      } else {
-        await axios.post("/api/arsip", values);
-      }
-      router.push("/arsip");
+      await axios.post(`/api/dus/${dus?.id}`, values);
+      router.push(`/dus/${dus?.id}`);
       router.refresh();
       setLoading(false);
     } catch (error) {
@@ -138,25 +134,18 @@ export default function ProfileForm({ dokumen, jenisBerkas, dus }: Props) {
         <FormField
           control={form.control}
           name="noDusId"
-          defaultValue={dokumen?.noDusId}
+          defaultValue={dus?.id}
           render={({ field }) => (
             <FormItem>
               <FormLabel>Dus</FormLabel>
-              <Select
-                onValueChange={field.onChange}
-                defaultValue={dokumen?.noDusId}
-              >
+              <Select onValueChange={field.onChange} defaultValue={dus?.id}>
                 <FormControl>
                   <SelectTrigger>
                     <SelectValue placeholder="Pilih Dus" />
                   </SelectTrigger>
                 </FormControl>
                 <SelectContent>
-                  {dus?.map((x) => (
-                    <SelectItem value={x.id} key={x.id}>
-                      {x.noDus}
-                    </SelectItem>
-                  ))}
+                  {<SelectItem value={dus?.id!}>{dus?.noDus}</SelectItem>}
                 </SelectContent>
               </Select>
             </FormItem>

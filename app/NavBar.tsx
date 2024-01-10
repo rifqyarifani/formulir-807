@@ -25,7 +25,7 @@ const NavBar = () => {
 
   return (
     <>
-      <nav className=" flex border-b mb-5 px-20 h-14 items-center justify-between">
+      <nav className=" flex border-b mb-5 h-14 items-center justify-between container">
         <NavigationMenu>
           <NavigationMenuList>
             <NavigationMenuItem>

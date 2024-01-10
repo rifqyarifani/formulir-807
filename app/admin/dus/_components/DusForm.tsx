@@ -90,7 +90,7 @@ export default function ProfileForm({ dus }: Props) {
           variant="solid"
           className=" cursor-pointer"
         >
-          {dus ? "Edit" : "Tambah"} Jenis Berkas
+          {dus ? "Edit" : "Tambah"} Dus
           {loading && <Spinner />}
         </Button>
       </form>
