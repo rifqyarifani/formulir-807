@@ -1,9 +1,9 @@
 import prisma from "@/prisma/client";
 import { Heading } from "@radix-ui/themes";
-import { count } from "console";
 import React from "react";
-import { Bar, BarChart, ResponsiveContainer, XAxis, YAxis } from "recharts";
 import DokumenChart from "./DokumenChart";
+import { getServerSession } from "next-auth/next";
+import { authOptions } from "@/lib/auth";
 
 const Main = async () => {
   const data = await prisma.jenisBerkas.findMany({
@@ -17,6 +17,17 @@ const Main = async () => {
     ...docs,
     _count: docs._count.Dokumen,
   }));
+
+  const session = await getServerSession(authOptions);
+  if (session === null) {
+    return (
+      <>
+        <div className=" h-60 flex items-center justify-center">
+          <h1 className=" text-5xl font-bold">Login Terlebih dahulu</h1>
+        </div>
+      </>
+    );
+  }
 
   return (
     <>

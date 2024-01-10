@@ -6,7 +6,6 @@ import { Button, Heading } from "@radix-ui/themes";
 import { getServerSession } from "next-auth/next";
 import Link from "next/link";
 import { BsPlusCircle } from "react-icons/bs";
-import Confetti from "react-confetti";
 
 const jenisBerkasAdminPage = async () => {
   const session = await getServerSession(authOptions);

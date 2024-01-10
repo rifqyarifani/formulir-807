@@ -4,6 +4,9 @@ import Link from "next/link";
 import { BsPlusCircle } from "react-icons/bs";
 import { DataTable } from "@/app/arsip/_components/DataTable";
 import { columns } from "../arsip/_components/Columns";
+import { getServerSession } from "next-auth/next";
+import { authOptions } from "@/lib/auth";
+
 const TableData = async () => {
   const dokumen = await prisma.dokumen.findMany({
     include: { jenisBerkas: true, noDus: true },
@@ -13,6 +16,17 @@ const TableData = async () => {
     jenisBerkas: docs.jenisBerkas.nama,
     noDus: docs.noDus.noDus,
   }));
+
+  const session = await getServerSession(authOptions);
+  if (session === null) {
+    return (
+      <>
+        <div className=" h-60 flex items-center justify-center">
+          <h1 className=" text-5xl font-bold">Login Terlebih dahulu</h1>
+        </div>
+      </>
+    );
+  }
 
   return (
     <>
