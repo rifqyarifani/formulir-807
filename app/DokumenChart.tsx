@@ -1,5 +1,6 @@
 "use client";
 
+import { wrap } from "module";
 import React from "react";
 import { ResponsiveContainer, XAxis, YAxis, Bar, BarChart } from "recharts";
 
@@ -9,22 +10,23 @@ interface Props {
 
 const DokumenChart = ({ jenisBerkasData }: Props) => {
   return (
-    <ResponsiveContainer width="50%" height={350}>
+    <ResponsiveContainer width="100%" height={500}>
       <BarChart data={jenisBerkasData}>
         <XAxis
           dataKey="nama"
           stroke="#888888"
-          fontSize={14}
-          tickLine={false}
-          axisLine={false}
+          fontSize={12}
+          tickLine={true}
+          axisLine={true}
         />
         <YAxis
           stroke="#888888"
-          fontSize={12}
-          tickLine={false}
-          axisLine={false}
+          fontSize={16}
+          tickLine={true}
+          axisLine={true}
+          allowDecimals={false}
         />
-        <Bar dataKey="_count" fill="lightblue" radius={[4, 4, 0, 0]} />
+        <Bar dataKey="_count" fill="#8884d8" radius={[10, 10, 0, 0]} />
       </BarChart>
     </ResponsiveContainer>
   );
