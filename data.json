@@ -22,5 +22,17 @@
         "permohonan": "Penghapusan NPWP Ganda",
         "formulir": [{"Formulir Penghapusan NPWP": "https://docs.google.com/spreadsheets/d/1aBhadYUYyWuX2tpNDRWKgP58nXrb_WVe/edit#gid=1720146094"}],
         "lampiran": ["FC KTP", "FC NPWP", "Surat Pernyataan NPWP Ganda Bermaterai"]
+    },
+    {
+        "id": "5",
+        "permohonan": "Penghapusan NPWP Orang Pribadi Meninggal",
+        "formulir": [{"Formulir Penghapusan NPWP": "https://docs.google.com/spreadsheets/d/1aBhadYUYyWuX2tpNDRWKgP58nXrb_WVe/edit#gid=1720146094"}],
+        "lampiran": ["FC NPWP", "FC Akta Kematian", "Surat Pernyataan Warisan Sudah Terbagi atau Tidak Meninggalkan Warisan Bermaterai", "FC KTP/KK pemohon"]
+    },
+    {
+        "id": "6",
+        "permohonan": "Penghapusan NPWP Badan",
+        "formulir": [{"Formulir Penghapusan NPWP": "https://docs.google.com/spreadsheets/d/1aBhadYUYyWuX2tpNDRWKgP58nXrb_WVe/edit#gid=1720146094"}],
+        "lampiran": ["FC KTP Pengurus", "FC NPWP Pengurus", "NPWP Badan", "Akta Pembubaran atau Surat Keterangan tidak ada kegiatan usaha"]
     }
 ]
