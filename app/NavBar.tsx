@@ -14,11 +14,8 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 import { cn } from "@/lib/utils";
-import { useSession } from "next-auth/react";
-import LoginButton from "./LoginButton";
 
 const NavBar = () => {
-  const { data: session } = useSession();
   const handleSearch = (query: string) => {
     console.log("Search query:", query);
   };
@@ -36,38 +33,15 @@ const NavBar = () => {
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href={"/arsip"} legacyBehavior passHref>
+              <Link href={"/permohonan"} legacyBehavior passHref>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                  Arsip
+                  Permohonan
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
-            <NavigationMenuItem>
-              <Link href={"/dus"} legacyBehavior passHref>
-                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                  Dus
-                </NavigationMenuLink>
-              </Link>
-            </NavigationMenuItem>
-            {session?.user.role === "Admin" && (
-              <NavigationMenuItem>
-                <NavigationMenuTrigger>Admin</NavigationMenuTrigger>
-                <NavigationMenuContent>
-                  <ul className="md:w-[300px] lg:w-[300px] text-center">
-                    <ListItem href="/admin/user" title="User"></ListItem>
-                    <ListItem href="/admin/dus" title="Dus"></ListItem>
-                    <ListItem
-                      href="/admin/jenisberkas"
-                      title="Jenis Berkas"
-                    ></ListItem>
-                  </ul>
-                </NavigationMenuContent>
-              </NavigationMenuItem>
-            )}
           </NavigationMenuList>
         </NavigationMenu>
         <div className=" flex justify-center items-center gap-4">
-          <LoginButton />
           <ModeToggle />
         </div>
       </nav>

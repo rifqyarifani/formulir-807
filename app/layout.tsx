@@ -4,14 +4,13 @@ import "@radix-ui/themes/styles.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import NavBar from "./NavBar";
-import Providers from "./Providers";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Gudang",
-  description: "Arsip Untuk Dokumen",
+  title: "Formulir",
+  description: "Formulir Permohonan",
 };
 
 export default function RootLayout({
@@ -22,19 +21,17 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${inter.className}`}>
-        <Providers>
-          <Theme>
-            <ThemeProvider
-              attribute="class"
-              defaultTheme="system"
-              enableSystem
-              disableTransitionOnChange
-            >
-              <NavBar />
-              <main className=" px-20">{children}</main>
-            </ThemeProvider>
-          </Theme>
-        </Providers>
+        <Theme>
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+            disableTransitionOnChange
+          >
+            <NavBar />
+            <main className=" px-20">{children}</main>
+          </ThemeProvider>
+        </Theme>
       </body>
     </html>
   );
