@@ -1,4 +1,3 @@
-import prisma from "@/prisma/client";
 import { Heading } from "@radix-ui/themes";
 import { DataTable } from "@/app/permohonan/_components/DataTable";
 import { columns } from "./_components/Columns";
