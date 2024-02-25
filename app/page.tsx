@@ -3,7 +3,7 @@ import React from "react";
 const Main = async () => {
   return (
     <>
-      <div className="container">
+      <div className="flex justify-center">
         <Heading mb={"5"}>Dashboard</Heading>
       </div>
     </>

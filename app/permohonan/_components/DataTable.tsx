@@ -2,7 +2,6 @@
 
 import React from "react";
 
-import { DataTablePagination } from "@/components/DataTablePagination";
 import { Input } from "@/components/ui/input";
 import {
   Table,
@@ -63,7 +62,6 @@ export function DataTable<TData, TValue>({
           onChange={(event) =>
             table.getColumn(`permohonan`)?.setFilterValue(event.target.value)
           }
-          className="max-w-sm"
         />
       </div>
       <div className="rounded-md border">
@@ -115,14 +113,6 @@ export function DataTable<TData, TValue>({
             )}
           </TableBody>
         </Table>
-      </div>
-      <div className=" flex justify-between items-center">
-        <p>
-          {data.length > 0
-            ? `Data yang ditemukan ${data.length}`
-            : "Data tidak ditemukan"}
-        </p>
-        <DataTablePagination table={table} />
       </div>
     </div>
   );

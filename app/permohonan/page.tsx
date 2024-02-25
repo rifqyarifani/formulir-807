@@ -6,10 +6,10 @@ import data from "../../data.json";
 const TableData = async () => {
   return (
     <>
-      <div className=" flex justify-center container">
+      <div className=" flex justify-center">
         <Heading mb={"5"}>Daftar Formulir</Heading>
       </div>
-      <div className="container">
+      <div className="">
         <DataTable columns={columns} data={data} />
       </div>
     </>

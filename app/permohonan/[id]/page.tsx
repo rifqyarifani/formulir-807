@@ -20,15 +20,38 @@ const DetailPage = async ({ params }: Props) => {
     }
   }
 
+  const mappedList = permohonan.formulir.map((obj: any) => {
+    const entries = Object.entries(obj)[0];
+    return entries;
+  });
+
   return (
     <>
-      <div>
-        <h1>{permohonan.permohonan}</h1>
-        <ul>
-          {permohonan.persyaratan.map((detail: any) => (
-            <li key={detail}>{detail}</li>
+      <div className=" mt-10">
+        <h1 className=" text-center font-bold text-4xl mb-8">
+          {permohonan.permohonan}
+        </h1>
+        <div className=" mb-8">
+          {" "}
+          <h2 className=" font-medium text-2xl">Formulir</h2>
+          {mappedList.map((detail: any, index: any) => (
+            <li key={detail}>
+              <a href={detail[1]} target="_blank">
+                {detail[0]}
+              </a>
+            </li>
           ))}
-        </ul>
+        </div>
+        <div>
+          <h2 className=" font-medium text-2xl">Lampiran</h2>
+          <ol>
+            {permohonan.lampiran.map((detail: any, index: any) => (
+              <li key={detail} className=" mb-2">
+                {index + 1}. {detail}
+              </li>
+            ))}
+          </ol>
+        </div>
       </div>
     </>
   );
