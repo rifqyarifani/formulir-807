@@ -3,19 +3,22 @@
         "id": "1",
         "permohonan": "Pendaftaran NPWP Orang Pribadi",
         "formulir": [{"Formulir Pendaftaran WP OP dan Warisan Belum Terbagi": "https://docs.google.com/spreadsheets/d/1V1FEIAwH2Quh75uxcdYbPL-qBZdTQjJA/edit#gid=631538721"}],
-        "lampiran": ["WNI: FC KTP", "WNA: FC Paspor dan KITAS atau KITAP"]
+        "lampiran": ["WNI: FC KTP", "WNA: FC Paspor dan KITAS atau KITAP"],
+        "jangkaWaktu": "1 Hari Kerja"
     },
     {
         "id": "2",
         "permohonan": "Pendaftaran NPWP Orang Pribadi Wanita Kawin Pisah Harta",
         "formulir": [{"Formulir Pendaftaran WP OP dan Warisan Belum Terbagi": "https://docs.google.com/spreadsheets/d/1V1FEIAwH2Quh75uxcdYbPL-qBZdTQjJA/edit#gid=631538721"}],
-        "lampiran": ["FC KTP", "FC NPWP Suami", "FC KK atau Akta Perkawinan", "Surat perjanjian pisah harta"]
+        "lampiran": ["FC KTP", "FC NPWP Suami", "FC KK atau Akta Perkawinan", "Surat perjanjian pisah harta"],
+        "jangkaWaktu":"1 Hari Kerja"
     },
     {
         "id": "3",
         "permohonan": "Pendaftaran NPWP Badan",
         "formulir": [{"Formulir Pendaftaran WP Badan": "https://docs.google.com/spreadsheets/d/1sv_8WODS8dGfdHl_30HUoHuLIopN7gXn/edit#gid=1335188652"}],
-        "lampiran": ["FC KTP Pengurus", "FC NPWP Pengurus", "FC Dokumen Pendirian"]
+        "lampiran": ["FC KTP Pengurus", "FC NPWP Pengurus", "FC Dokumen Pendirian"],
+        "jangkaWaktu":"1 Hari Kerja"
     },
     {
         "id": "4",

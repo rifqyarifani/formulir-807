@@ -27,8 +27,8 @@ const DetailPage = async ({ params }: Props) => {
 
   return (
     <>
-      <div className=" mt-10 container">
-        <h1 className=" text-center font-bold text-4xl mb-8">
+      <div className=" pt-10 container">
+        <h1 className=" text-center font-bold text-3xl mb-8">
           {permohonan.permohonan}
         </h1>
         <div className=" mb-8">
@@ -46,7 +46,10 @@ const DetailPage = async ({ params }: Props) => {
             </li>
           ))}
         </div>
-        <div>
+        <div
+          className=" mb-8
+        "
+        >
           <h2 className=" font-medium text-2xl">Lampiran</h2>
           <ol>
             {permohonan.lampiran.map((detail: any, index: any) => (
@@ -54,6 +57,12 @@ const DetailPage = async ({ params }: Props) => {
                 {index + 1}. {detail}
               </li>
             ))}
+          </ol>
+        </div>
+        <div>
+          <h2 className=" font-medium text-2xl">Jangka Waktu</h2>
+          <ol>
+            <li>{permohonan.jangkaWaktu}</li>
           </ol>
         </div>
       </div>
