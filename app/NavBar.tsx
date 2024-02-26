@@ -11,7 +11,6 @@ const NavBar = () => {
   const [toggle, setToggle] = useState(false);
   function handleClick() {
     setToggle(toggle ? false : true);
-    console.log(toggle);
   }
 
   function goTop() {
@@ -23,13 +22,13 @@ const NavBar = () => {
 
   return (
     <>
-      <div className="flex border-b h-14 font-bold items-center justify-between container px-6 sm:px-36 py-6 bg-gradient-to-t from-gray-200">
+      <div className="flex border-b h-14 font-bold items-center justify-between container px-6 md:px-36 py-6 shadow-md">
         <p className="text-xl cursor-pointer hover:text-blue-700 transition duration-150">
           <Link href="/" legacyBehavior passHref>
             Dashboard
           </Link>
         </p>
-        <ul className=" sm:flex gap-6 text-lg hidden">
+        <ul className=" md:flex gap-6 text-lg hidden">
           <li className=" cursor-pointer hover:text-blue-700 transition duration-150">
             <Link href="/permohonan">Permohonan</Link>
           </li>
@@ -37,7 +36,7 @@ const NavBar = () => {
         <FontAwesomeIcon
           icon={faBarsStaggered}
           onClick={handleClick}
-          className=" sm:hidden hover:text-blue-500 text-xl cursor-pointer"
+          className=" md:hidden hover:text-blue-500 text-xl cursor-pointer"
         />
       </div>
       {toggle && (

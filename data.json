@@ -1,24 +1,10 @@
 [
     {
         "id": "1",
-        "permohonan": "Pendaftaran NPWP Orang Pribadi",
-        "formulir": [{"Formulir Pendaftaran WP OP dan Warisan Belum Terbagi": "https://docs.google.com/spreadsheets/d/1V1FEIAwH2Quh75uxcdYbPL-qBZdTQjJA/edit#gid=631538721"}],
-        "lampiran": ["WNI: FC KTP", "WNA: FC Paspor dan KITAS atau KITAP"],
+        "permohonan": "Pendaftaran NPWP",
+        "formulir": [{"Formulir Pendaftaran WP OP dan Warisan Belum Terbagi": "https://docs.google.com/spreadsheets/d/1V1FEIAwH2Quh75uxcdYbPL-qBZdTQjJA/edit#gid=631538721"}, {"Formulir Pendaftaran WP Badan": "https://docs.google.com/spreadsheets/d/1sv_8WODS8dGfdHl_30HUoHuLIopN7gXn/edit#gid=1335188652"}, {"Formulir Pendaftaran WP Instansi Pemerintah": "https://docs.google.com/spreadsheets/d/1MXjnPdVFkuxqP3OZ73AP8tr0faspq21g/edit#gid=2018880689"}],
+        "lampiran": [{"Orang Pribadi": ["WNI: FC KTP", "WNA: FC Paspor dan KITAS atau KITAP"]}, {"Orang Pribadi Kawin Memilih Terpisah": ["FC KTP", "FC NPWP Suami", "FC KK atau Akta Perkawinan", "Surat perjanjian pisah harta"]}, {"Badan" : ["FC KTP Pengurus", "FC NPWP Pengurus", "FC Dokumen Pendirian"]}, {"Badan KSO": ["FC Perjanjian Kerjasama atau Akta KSO", "FC NPWP Masing-Masing Anggota KSO", "FC KTP Masing-Masing Pengurus KSO", "FC NPWP Masing-Masing Pengurus KSO"]}, {"Cabang WP Badan": ["FC NPWP Pusat", "FC NPWP Penanggung Jawab Cabang", "FC KTP Penanggung Jawab Cabang"]}],
         "jangkaWaktu": "1 Hari Kerja"
-    },
-    {
-        "id": "2",
-        "permohonan": "Pendaftaran NPWP Orang Pribadi Wanita Kawin Pisah Harta",
-        "formulir": [{"Formulir Pendaftaran WP OP dan Warisan Belum Terbagi": "https://docs.google.com/spreadsheets/d/1V1FEIAwH2Quh75uxcdYbPL-qBZdTQjJA/edit#gid=631538721"}],
-        "lampiran": ["FC KTP", "FC NPWP Suami", "FC KK atau Akta Perkawinan", "Surat perjanjian pisah harta"],
-        "jangkaWaktu":"1 Hari Kerja"
-    },
-    {
-        "id": "3",
-        "permohonan": "Pendaftaran NPWP Badan",
-        "formulir": [{"Formulir Pendaftaran WP Badan": "https://docs.google.com/spreadsheets/d/1sv_8WODS8dGfdHl_30HUoHuLIopN7gXn/edit#gid=1335188652"}],
-        "lampiran": ["FC KTP Pengurus", "FC NPWP Pengurus", "FC Dokumen Pendirian"],
-        "jangkaWaktu":"1 Hari Kerja"
     },
     {
         "id": "4",

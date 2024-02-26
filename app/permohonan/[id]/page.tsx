@@ -6,10 +6,6 @@ interface Props {
   params: { id: string };
 }
 
-interface detail {
-  id: string;
-}
-
 const DetailPage = async ({ params }: Props) => {
   const queryString = `param1=${params.id}`;
   const parsedQuery = querystring.parse(queryString).param1;
@@ -20,7 +16,12 @@ const DetailPage = async ({ params }: Props) => {
     }
   }
 
-  const mappedList = permohonan.formulir.map((obj: any) => {
+  const formulirList = permohonan.formulir.map((obj: any) => {
+    const entries = Object.entries(obj)[0];
+    return entries;
+  });
+
+  const lampiranList = permohonan.lampiran.map((obj: any) => {
     const entries = Object.entries(obj)[0];
     return entries;
   });
@@ -34,7 +35,7 @@ const DetailPage = async ({ params }: Props) => {
         <div className=" mb-8">
           {" "}
           <h2 className=" font-medium text-2xl">Formulir</h2>
-          {mappedList.map((detail: any, index: any) => (
+          {formulirList.map((detail: any, index: any) => (
             <li key={detail}>
               <a
                 href={detail[1]}
@@ -46,24 +47,26 @@ const DetailPage = async ({ params }: Props) => {
             </li>
           ))}
         </div>
-        <div
-          className=" mb-8
-        "
-        >
-          <h2 className=" font-medium text-2xl">Lampiran</h2>
-          <ol>
-            {permohonan.lampiran.map((detail: any, index: any) => (
-              <li key={detail} className=" mb-2">
-                {index + 1}. {detail}
-              </li>
-            ))}
-          </ol>
-        </div>
-        <div>
+        <div className=" mb-8">
           <h2 className=" font-medium text-2xl">Jangka Waktu</h2>
           <ol>
             <li>{permohonan.jangkaWaktu}</li>
           </ol>
+        </div>
+        <div className=" mb-8">
+          <h2 className=" font-medium text-2xl">Lampiran</h2>
+          {lampiranList.map((detail: any) => (
+            <li key={detail} className=" mb-4 list-[upper-alpha] font-medium">
+              {detail[0]}
+              <div>
+                {detail[1].map((x: any) => (
+                  <li key={x} className=" font-normal list-disc ml-6">
+                    {x}
+                  </li>
+                ))}
+              </div>
+            </li>
+          ))}
         </div>
       </div>
     </>
