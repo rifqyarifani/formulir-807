@@ -28,35 +28,38 @@ const DetailPage = async ({ params }: Props) => {
 
   return (
     <>
-      <div className=" pt-10 container">
+      <div className=" pt-10 container md:px-36">
         <h1 className=" text-center font-bold text-3xl mb-8">
           {permohonan.permohonan}
         </h1>
-        <div className=" mb-8">
-          {" "}
-          <h2 className=" font-medium text-2xl">Formulir</h2>
-          {formulirList.map((detail: any, index: any) => (
-            <li key={detail}>
-              <a
-                href={detail[1]}
-                target="_blank"
-                className=" underline hover:no-underline hover:text-blue-700"
-              >
-                {detail[0]}
-              </a>
-            </li>
-          ))}
+        <div className=" md:flex md:justify-between">
+          <div className=" mb-8">
+            {" "}
+            <h2 className=" font-medium text-2xl">Formulir</h2>
+            {formulirList.map((detail: any, index: any) => (
+              <li key={detail}>
+                <a
+                  href={detail[1]}
+                  target="_blank"
+                  className=" underline hover:no-underline hover:text-blue-700"
+                >
+                  {detail[0]}
+                </a>
+              </li>
+            ))}
+          </div>
+          <div className=" mb-8">
+            <h2 className=" font-medium text-2xl">Jangka Waktu</h2>
+            <ol>
+              <li>{permohonan.jangkaWaktu}</li>
+            </ol>
+          </div>
         </div>
-        <div className=" mb-8">
-          <h2 className=" font-medium text-2xl">Jangka Waktu</h2>
-          <ol>
-            <li>{permohonan.jangkaWaktu}</li>
-          </ol>
-        </div>
-        <div className=" mb-8">
+
+        <div className="">
           <h2 className=" font-medium text-2xl">Lampiran</h2>
           {lampiranList.map((detail: any) => (
-            <li key={detail} className=" mb-4 list-[upper-alpha] font-medium">
+            <li key={detail} className="py-2 list-[upper-alpha] font-medium">
               {detail[0]}
               <div>
                 {detail[1].map((x: any) => (
