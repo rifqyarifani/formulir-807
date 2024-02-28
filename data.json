@@ -2,26 +2,85 @@
     {
         "id": "1",
         "permohonan": "Pendaftaran NPWP",
-        "formulir": [{"Formulir Pendaftaran WP OP dan Warisan Belum Terbagi": "https://docs.google.com/spreadsheets/d/1V1FEIAwH2Quh75uxcdYbPL-qBZdTQjJA/edit#gid=631538721"}, {"Formulir Pendaftaran WP Badan": "https://docs.google.com/spreadsheets/d/1sv_8WODS8dGfdHl_30HUoHuLIopN7gXn/edit#gid=1335188652"}, {"Formulir Pendaftaran WP Instansi Pemerintah": "https://docs.google.com/spreadsheets/d/1MXjnPdVFkuxqP3OZ73AP8tr0faspq21g/edit#gid=2018880689"}],
-        "lampiran": [{"Orang Pribadi": ["WNI: FC KTP", "WNA: FC Paspor dan KITAS atau KITAP"]}, {"Orang Pribadi Kawin Memilih Terpisah": ["FC KTP", "FC NPWP Suami", "FC KK atau Akta Perkawinan", "Surat perjanjian pisah harta"]}, {"Badan" : ["FC KTP Pengurus", "FC NPWP Pengurus", "FC Dokumen Pendirian"]}, {"Badan KSO": ["FC Perjanjian Kerjasama atau Akta KSO", "FC NPWP Masing-Masing Anggota KSO", "FC KTP Masing-Masing Pengurus KSO", "FC NPWP Masing-Masing Pengurus KSO"]}, {"Cabang WP Badan": ["FC NPWP Pusat", "FC NPWP Penanggung Jawab Cabang", "FC KTP Penanggung Jawab Cabang"]}],
+        "formulir": [{"Formulir Pendaftaran WP OP dan Warisan Belum Terbagi": "https://drive.google.com/file/d/1ZQUPMZntP6CeuRUoQZu4eNLdSuOoYhwT/view?usp=sharing"}, {"Formulir Pendaftaran WP Badan": "https://drive.google.com/file/d/1uOIar79piFqeTSN3Fbr3iv43ryhmgOvd/view?usp=sharing"}, {"Formulir Pendaftaran WP Instansi Pemerintah": "https://drive.google.com/file/d/1D_3qEh4eqwblUT61W4_Qe3a7uPLAcOu8/view?usp=sharing"}],
+        "lampiran": [{"Orang Pribadi": ["WNI: FC KTP", "WNA: FC Paspor dan KITAS atau KITAP"]}, {"Orang Pribadi Kawin Memilih Terpisah": ["FC KTP", "FC NPWP Suami", "FC KK atau Akta Perkawinan", "Surat perjanjian pisah harta"]}, {"Badan" : ["FC KTP Pengurus", "FC NPWP Pengurus", "FC Dokumen Pendirian"]}, {"Badan KSO": ["FC Perjanjian Kerjasama atau Akta KSO", "FC NPWP Masing-Masing Anggota KSO", "FC KTP Masing-Masing Pengurus KSO", "FC NPWP Masing-Masing Pengurus KSO"]}, {"Cabang WP Badan": ["FC NPWP Pusat", "FC NPWP Penanggung Jawab Cabang", "FC KTP Penanggung Jawab Cabang"]}, {"Instansi Pemerintah": ["KEP Penunjukan KPA","FC KTP KPA", "FC NPWP KPA", "KEP Penunjukan Bendahara", "FC KTP Bendahara", "FC NPWP Bendahara"]}],
         "jangkaWaktu": "1 Hari Kerja"
     },
     {
+        "id": "2",
+        "permohonan": "Perubahan Data NPWP",
+        "formulir": [{"Formulir Perubahan Data Orang Pribadi": "https://drive.google.com/file/d/1bdvWaU3qVKzU0LZDZBqt5qCbn33z8KlG/view?usp=sharing"}, {"Formulir Perubahan Data Badan": "https://drive.google.com/file/d/1_0nPt4KLKQqMCrqQXkM0Ic18ldg0E-oo/view?usp=sharing"}, {"Formulir Perubahan Data Instansi Pemerintah": "https://drive.google.com/file/d/1kDS8IGVD1vnGUc93IE4vK7O1vISpFvBg/view?usp=sharing"}],
+        "lampiran": [{"Orang Pribadi": ["FC NPWP","WNI: FC KTP", "WNA: FC Paspor dan KITAS atau KITAP"]}, {"Badan" : ["FC NPWP Badan","FC KTP Pengurus", "FC NPWP Pengurus", "FC Dokumen Pendirian"]}, {"Instansi Pemerintah": ["KEP Penunjukan KPA","FC KTP KPA", "FC NPWP KPA", "KEP Penunjukan Bendahara", "FC KTP Bendahara", "FC NPWP Bendahara"]}],
+        "jangkaWaktu": "1 Hari Kerja"
+    },
+    {
+        "id": "3",
+        "permohonan": "Penetapan WP Non Efektif",
+        "formulir": [{"Formulir dan Surat Pernyataan Penetapan WP Non Efektif": "https://drive.google.com/file/d/1I-ICUadMQ5Y6iL1dCQFny2tqchb6HXER/view?usp=sharing"}],
+        "lampiran": [{"Orang Pribadi": ["FC NPWP","WNI: FC KTP", "WNA: FC Paspor dan KITAS atau KITAP", "Surat Pernyataan WP NE Bermaterai", "Surat Keterangan Tidak Menjalankan Usaha/Surat Keterangan Dari Pemberi Kerja Kalau Penghasilan dibawah Rp4,5 Juta"]}, {"Badan" : ["FC NPWP Badan","FC KTP Pengurus", "FC NPWP Pengurus", "Surat Pernyataan WP NE Bermaterai", "Surat Keterangan Tidak Menjalankan Usaha"]}],
+        "jangkaWaktu": "5 Hari Kerja"
+    },
+    {
         "id": "4",
-        "permohonan": "Penghapusan NPWP Ganda",
-        "formulir": [{"Formulir Penghapusan NPWP": "https://docs.google.com/spreadsheets/d/1aBhadYUYyWuX2tpNDRWKgP58nXrb_WVe/edit#gid=1720146094"}],
-        "lampiran": ["FC KTP", "FC NPWP", "Surat Pernyataan NPWP Ganda Bermaterai"]
+        "permohonan": "Pengaktifan Kembali WP Non Efektif",
+        "formulir": [{"Formulir Pengaktifkan Kembali WP Non Efektif": "https://drive.google.com/file/d/1-FFvaz8cJuf7-Ht6S5QNq9R_lxa1aJsa/view?usp=sharing"}],
+        "lampiran": [{"Orang Pribadi": ["FC NPWP","WNI: FC KTP", "WNA: FC Paspor dan KITAS atau KITAP"]}, {"Badan" : ["FC NPWP Badan","FC KTP Pengurus", "FC NPWP Pengurus", "FC Dokumen Pendirian"]}],
+        "jangkaWaktu": "1 Hari Kerja"
     },
     {
         "id": "5",
-        "permohonan": "Penghapusan NPWP Orang Pribadi Meninggal",
-        "formulir": [{"Formulir Penghapusan NPWP": "https://docs.google.com/spreadsheets/d/1aBhadYUYyWuX2tpNDRWKgP58nXrb_WVe/edit#gid=1720146094"}],
-        "lampiran": ["FC NPWP", "FC Akta Kematian", "Surat Pernyataan Warisan Sudah Terbagi atau Tidak Meninggalkan Warisan Bermaterai", "FC KTP/KK pemohon"]
+        "permohonan": "Pengukuhan PKP",
+        "formulir": [{"Formulir Pengukuhan PKP": "https://drive.google.com/file/d/13UWKQbkVsCalNzKgAwKcJ2pWc6-Fys8y/view?usp=sharing"}],
+        "lampiran": [{"Orang Pribadi": ["FC NPWP","WNI: FC KTP", "WNA: FC Paspor dan KITAS atau KITAP"]}, {"Badan" : ["FC NPWP Badan","FC KTP Pengurus", "FC NPWP Pengurus", "FC Dokumen Pendirian"]}],
+        "jangkaWaktu": "1 Hari Kerja"
     },
     {
         "id": "6",
-        "permohonan": "Penghapusan NPWP Badan",
-        "formulir": [{"Formulir Penghapusan NPWP": "https://docs.google.com/spreadsheets/d/1aBhadYUYyWuX2tpNDRWKgP58nXrb_WVe/edit#gid=1720146094"}],
-        "lampiran": ["FC KTP Pengurus", "FC NPWP Pengurus", "NPWP Badan", "Akta Pembubaran atau Surat Keterangan tidak ada kegiatan usaha"]
+        "permohonan": "Pencabutan Pengukuhan PKP",
+        "formulir": [{"Formulir Pencabutan Pengukuhan PKP": "https://drive.google.com/file/d/1VtUvyh02EE0tfoQGp_hSpf9-8vHfrWAQ/view?usp=sharing"}],
+        "lampiran": [{"Orang Pribadi": ["FC NPWP","WNI: FC KTP", "WNA: FC Paspor dan KITAS atau KITAP"]}, {"Badan" : ["FC NPWP Badan","FC KTP Pengurus", "FC NPWP Pengurus", "FC Dokumen Pendirian"]}],
+        "jangkaWaktu": "6 Bulan"
+    },
+    {
+        "id": "7",
+        "permohonan": "Pemindahan WP",
+        "formulir": [{"Formulir Pemindahan WP": "https://drive.google.com/file/d/1ocOi3iEvfWNKtx_rlEgoCy682wYj4bKG/view?usp=sharing"}],
+        "lampiran": [{"Orang Pribadi": ["FC NPWP","WNI: FC KTP", "WNA: FC Paspor dan KITAS atau KITAP"]}, {"Badan" : ["FC NPWP Badan","FC KTP Pengurus", "FC NPWP Pengurus", "FC Dokumen Pendirian"]}],
+        "jangkaWaktu": "5 hari Kerja"
+    },
+    {
+        "id": "8",
+        "permohonan": "Permintaan Kembali NPWP/SKT/SPPKP",
+        "formulir": [{"Formulir Permintaan Kembali": "https://drive.google.com/file/d/1N2LOLESBGDW3IWdgDbA5YYdXyWqzzD93/view?usp=sharing"}],
+        "lampiran": [{"Orang Pribadi": ["FC NPWP","WNI: FC KTP", "WNA: FC Paspor dan KITAS atau KITAP"]}, {"Badan" : ["FC NPWP Badan","FC KTP Pengurus", "FC NPWP Pengurus", "FC Dokumen Pendirian"]}],
+        "jangkaWaktu": "1 hari Kerja"
+    },
+    {
+        "id": "9",
+        "permohonan": "Penghapusan NPWP",
+        "formulir": [{"Formulir Penghapusan NPWP": "https://drive.google.com/file/d/1LtMjvPOcJ_EbglDKeB3Bp3kM86yCvimS/view?usp=sharing"}],
+        "lampiran": [{"Orang Pribadi Meninggal": ["FC NPWP","FC KTP", "Akta Kematian", "Surat Pernyataan Warisan Terbagi atau Tidak Meninggalkan Warisan Bermaterai", "FC KTP/KK Pemohon"]}, {"Orang Pribadi Ganda": ["FC NPWP","FC KTP", "Surat Pernyataan NPWP Ganda Bermaterai"]},{"Badan" : ["FC NPWP Badan","FC KTP Pengurus", "FC NPWP Pengurus", "FC Akta Pembubaran/Surat Keterangan Tidak Ada Kegiatan Usaha"]}],
+        "jangkaWaktu": "6 Bulan (OP, WBT, IP); 12 Bulan (Badan)"
+    },
+    {
+        "id": "10",
+        "permohonan": "Permintaan Aktivasi Akun PKP",
+        "formulir": [{"Formulir Permintaan Aktivasi Akun PKP": "https://drive.google.com/file/d/1wgxIO74aAqXcfnfYi4ECn2vI2KkJfDrp/view?usp=sharing"}],
+        "lampiran": [{"Orang Pribadi": ["FC NPWP","WNI: FC KTP", "WNA: FC Paspor dan KITAS atau KITAP"]}, {"Badan" : ["FC NPWP Badan","FC KTP Pengurus", "FC NPWP Pengurus", "FC Dokumen Pendirian"]}],
+        "jangkaWaktu": "10 hari Kerja"
+    },
+    {
+        "id": "11",
+        "permohonan": "Permintaan Sertifikat Elektronik",
+        "formulir": [{"Formulir Permintaan Sertifikat Elektronik": "https://drive.google.com/file/d/1TWXVDHRDB5H7XyI7RRF6lyfo2b6iHRcb/view?usp=sharing"}],
+        "lampiran": [{"Orang Pribadi": ["FC NPWP","WNI: FC KTP", "WNA: FC Paspor dan KITAS atau KITAP"]}, {"Badan" : ["FC NPWP Badan","FC KTP Pengurus", "FC NPWP Pengurus", "FC Dokumen Pendirian"]}],
+        "jangkaWaktu": "1 hari Kerja"
+    },
+    {
+        "id": "12",
+        "permohonan": "Cetak NPWP Anggota Keluarga",
+        "formulir": [{"Formulir Cetak NPWP Anggota Keluarga": "https://drive.google.com/file/d/1K1rnp97f6h9o4WZU3vqPmKKncEMdx9SC/view?usp=sharing"}],
+        "lampiran": [{"Orang Pribadi": ["FC NPWP Kepala Keluarga", "FC KTP", "FC KK"]}],
+        "jangkaWaktu": "1 hari Kerja"
     }
 ]

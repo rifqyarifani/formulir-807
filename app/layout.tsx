@@ -30,7 +30,7 @@ export default function RootLayout({
             disableTransitionOnChange
           >
             <NavBar />
-            <main className=" container shadow-md">{children}</main>
+            <main className="">{children}</main>
             <Footer />
           </ThemeProvider>
         </Theme>
