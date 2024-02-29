@@ -28,7 +28,7 @@ const DetailPage = async ({ params }: Props) => {
 
   return (
     <>
-      <div className=" pt-6 container md:px-36">
+      <div className=" py-6 container md:px-36">
         <h1 className=" text-center font-bold text-3xl mb-8">
           {permohonan.permohonan}
         </h1>
@@ -60,11 +60,10 @@ const DetailPage = async ({ params }: Props) => {
           <h2 className=" font-medium text-2xl">Lampiran</h2>
           <div className=" grid md:grid-cols-2">
             {lampiranList.map((detail: any) => (
-              <li
-                key={detail}
-                className="py-2 list-[upper-alpha] font-medium suppressHydrationWarning"
-              >
-                {detail[0]}
+              <div className="">
+                <h2 key={detail} className=" py-2 font-medium">
+                  {detail[0]}
+                </h2>
                 <div>
                   {detail[1].map((x: any) => (
                     <li key={x} className=" font-normal list-disc ml-6">
@@ -72,7 +71,7 @@ const DetailPage = async ({ params }: Props) => {
                     </li>
                   ))}
                 </div>
-              </li>
+              </div>
             ))}
           </div>
         </div>

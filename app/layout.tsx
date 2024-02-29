@@ -30,7 +30,7 @@ export default function RootLayout({
             disableTransitionOnChange
           >
             <NavBar />
-            <main className="">{children}</main>
+            <main className=" bg-[#F7F9FA]">{children}</main>
             <Footer />
           </ThemeProvider>
         </Theme>
