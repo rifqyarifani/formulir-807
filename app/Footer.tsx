@@ -2,15 +2,16 @@ import React from "react";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className=" bg-slate-800 text-white w-full bottom-0">
+    <div className=" bg-[#093B6E] text-white font-medium w-full bottom-0">
       <div className=" container flex flex-col md:flex-row items-center justify-between sm:px-36 p-6 gap-2">
         <p className=" text-center">
           Copyright © 2024. All rights are reserved. KPP Pratama Bantaeng
         </p>
-        <div className=" flex">
+        <div className=" flex gap-4">
           <a
             href="https://instagram.com/pajakbantaeng"
             className=" text-3xl mr-4 hover:text-stone-300"
@@ -24,6 +25,13 @@ const Footer = () => {
             target="_blank"
           >
             <FaFacebook />
+          </a>
+          <a
+            href="https://wa.me/628114002807"
+            className=" text-3xl mr-4 hover:text-stone-300"
+            target="_blank"
+          >
+            <FaWhatsapp />
           </a>
           <a
             href="https://www.tiktok.com/@pajakbantaeng"

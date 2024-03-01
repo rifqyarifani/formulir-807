@@ -22,7 +22,7 @@ const NavBar = () => {
   return (
     <>
       <div className=" border-b">
-        <div className="flex h-14 font-bold items-center justify-between container p-6 md:px-36">
+        <div className="flex h-14 font-bold items-center justify-between container p-6 md:px-36 bg-[#093B6E] text-white">
           <p className="text-xl cursor-pointer hover:text-blue-700 transition duration-150">
             <Link href="/" legacyBehavior passHref>
               Dashboard

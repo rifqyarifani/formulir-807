@@ -1,6 +1,7 @@
 import React from "react";
 import data from "../../../data.json";
 import * as querystring from "querystring";
+import { FaDownload } from "react-icons/fa6";
 
 interface Props {
   params: { id: string };
@@ -28,28 +29,32 @@ const DetailPage = async ({ params }: Props) => {
 
   return (
     <>
-      <div className=" py-6 container md:px-36">
-        <h1 className=" text-center font-bold text-3xl mb-8">
-          {permohonan.permohonan}
-        </h1>
+      <div className=" py-6 container md:px-36 ">
+        <div className=" flex justify-center">
+          <h1 className=" text-center font-bold text-3xl mb-8 text-black inline-block p-2 rounded-full">
+            {permohonan.permohonan}
+          </h1>
+        </div>
         <div className=" md:flex md:justify-between">
           <div className=" mb-8">
             {" "}
-            <h2 className=" font-medium text-2xl">Formulir</h2>
+            <h2 className=" font-bold text-2xl text-[#093B6E]">Formulir</h2>
             {formulirList.map((detail: any, index: any) => (
-              <li key={detail} className=" py-1">
-                <a
-                  href={detail[1]}
-                  target="_blank"
-                  className=" underline hover:no-underline hover:text-blue-700"
-                >
+              <li
+                key={detail}
+                className=" py-1 flex items-center gap-2 hover:text-[#093B6E] underline underline-offset-2 decoration-2 decoration-[#093B6E]"
+              >
+                <a href={detail[1]} target="_blank" className="">
                   {detail[0]}
+                </a>
+                <a href={detail[1]} target="_blank" className="">
+                  <FaDownload />
                 </a>
               </li>
             ))}
           </div>
           <div className=" mb-8">
-            <h2 className=" font-medium text-2xl">Jangka Waktu</h2>
+            <h2 className=" font-bold text-2xl text-[#093B6E]">Jangka Waktu</h2>
             <ol>
               <li>{permohonan.jangkaWaktu}</li>
             </ol>
@@ -57,11 +62,14 @@ const DetailPage = async ({ params }: Props) => {
         </div>
 
         <div>
-          <h2 className=" font-medium text-2xl">Lampiran</h2>
+          <h2 className=" font-bold text-2xl text-[#093B6E]">Lampiran</h2>
           <div className=" grid md:grid-cols-2">
             {lampiranList.map((detail: any) => (
               <div className="">
-                <h2 key={detail} className=" py-2 font-medium">
+                <h2
+                  key={detail}
+                  className=" py-2 font-medium text-lg  underline underline-offset-2 decoration-2 decoration-[#093B6E]"
+                >
                   {detail[0]}
                 </h2>
                 <div>
