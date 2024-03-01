@@ -30,8 +30,8 @@ const DetailPage = async ({ params }: Props) => {
   return (
     <>
       <div className=" py-6 container md:px-36 ">
-        <div className=" flex justify-center">
-          <h1 className=" text-center font-bold text-3xl mb-8 text-black inline-block p-2 rounded-full">
+        <div className=" flex pb-6 justify-center container">
+          <h1 className=" text-center font-bold text-3xl">
             {permohonan.permohonan}
           </h1>
         </div>

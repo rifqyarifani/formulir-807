@@ -21,21 +21,21 @@ const NavBar = () => {
 
   return (
     <>
-      <div className=" border-b">
-        <div className="flex h-14 font-bold items-center justify-between container p-6 md:px-36 bg-[#093B6E] text-white">
-          <p className="text-xl cursor-pointer hover:text-blue-700 transition duration-150">
+      <div className=" bg-[#093B6E] z-50">
+        <div className="flex h-14 font-bold items-center justify-between container p-6 md:px-36 text-white">
+          <p className="text-xl cursor-pointer hover:text-stone-300 transition duration-150">
             <Link href="/" legacyBehavior passHref>
               Dashboard
             </Link>
           </p>
           <ul className=" md:flex gap-6 text-lg hidden">
-            <li className=" cursor-pointer hover:text-blue-700 transition duration-150">
+            <li className=" cursor-pointer hover:text-stone-300 transition duration-150">
               <Link href="/permohonan">Permohonan</Link>
             </li>
           </ul>
           <FaBars
             onClick={handleClick}
-            className=" md:hidden hover:text-blue-500 text-xl cursor-pointer"
+            className=" md:hidden hover:text-stone-300 text-xl cursor-pointer"
           />
         </div>
         {toggle && (
