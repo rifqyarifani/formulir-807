@@ -44,10 +44,20 @@ const DetailPage = async ({ params }: Props) => {
                 key={detail}
                 className=" py-1 flex items-center gap-2 hover:text-[#093B6E] underline underline-offset-2 decoration-2 decoration-[#093B6E]"
               >
-                <a href={detail[1]} target="_blank" className="">
+                <a
+                  href={detail[1]}
+                  target="_blank"
+                  className=""
+                  key={detail[0]}
+                >
                   {detail[0]}
                 </a>
-                <a href={detail[1]} target="_blank" className="">
+                <a
+                  href={detail[1]}
+                  target="_blank"
+                  className=""
+                  key={detail[0]}
+                >
                   <FaDownload />
                 </a>
               </li>
