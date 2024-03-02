@@ -39,7 +39,7 @@ const DetailPage = async ({ params }: Props) => {
           <div className=" mb-8">
             {" "}
             <h2 className=" font-bold text-2xl text-[#093B6E]">Formulir</h2>
-            {formulirList.map((detail: any, index: any) => (
+            {formulirList.map((detail: any) => (
               <li
                 key={detail}
                 className=" py-1 flex items-center gap-2 hover:text-[#093B6E] underline underline-offset-2 decoration-2 decoration-[#093B6E]"
@@ -75,7 +75,7 @@ const DetailPage = async ({ params }: Props) => {
           <h2 className=" font-bold text-2xl text-[#093B6E]">Lampiran</h2>
           <div className=" grid md:grid-cols-2">
             {lampiranList.map((detail: any) => (
-              <div className="">
+              <div key={detail}>
                 <h2
                   key={detail}
                   className=" py-2 font-medium text-lg  underline underline-offset-2 decoration-2 decoration-[#093B6E]"
