@@ -32,6 +32,9 @@ const NavBar = () => {
             <li className=" cursor-pointer hover:text-stone-300 transition duration-150">
               <Link href="/permohonan">Permohonan</Link>
             </li>
+            <li className=" cursor-pointer hover:text-stone-300 transition duration-150">
+              <Link href="/lokasi">Lokasi</Link>
+            </li>
           </ul>
           <FaBars
             onClick={handleClick}
@@ -56,6 +59,12 @@ const NavBar = () => {
                 onClick={handleClick}
               >
                 <Link href="/permohonan">Permohonan</Link>
+              </li>
+              <li
+                className=" cursor-pointer hover:text-blue-500 transition duration-150"
+                onClick={handleClick}
+              >
+                <Link href="/lokasi">Lokasi</Link>
               </li>
             </ul>
           </div>
