@@ -3,6 +3,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -39,6 +40,13 @@ const Footer = () => {
             target="_blank"
           >
             <FaTiktok />
+          </a>
+          <a
+            href="https://twitter.com/pajakbantaeng"
+            className=" text-3xl mr-4 hover:text-stone-300"
+            target="_blank"
+          >
+            <FaTwitter />
           </a>
         </div>
       </div>
