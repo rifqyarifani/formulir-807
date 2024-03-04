@@ -3,14 +3,14 @@
         "id": "1",
         "permohonan": "Pendaftaran NPWP",
         "formulir": [{"Formulir Pendaftaran WP OP dan Warisan Belum Terbagi": "https://drive.google.com/file/d/1ZQUPMZntP6CeuRUoQZu4eNLdSuOoYhwT/view?usp=sharing"}, {"Formulir Pendaftaran WP Badan": "https://drive.google.com/file/d/1uOIar79piFqeTSN3Fbr3iv43ryhmgOvd/view?usp=sharing"}, {"Formulir Pendaftaran WP Instansi Pemerintah": "https://drive.google.com/file/d/1D_3qEh4eqwblUT61W4_Qe3a7uPLAcOu8/view?usp=sharing"}],
-        "lampiran": [{"Orang Pribadi": ["WNI: FC KTP", "WNA: FC Paspor dan KITAS atau KITAP"]}, {"Orang Pribadi Kawin Memilih Terpisah": ["FC KTP", "FC NPWP Suami", "FC KK atau Akta Perkawinan", "Surat perjanjian pisah harta"]}, {"Badan" : ["FC KTP Pengurus", "FC NPWP Pengurus", "FC Dokumen Pendirian"]}, {"Badan KSO": ["FC Perjanjian Kerjasama atau Akta KSO", "FC NPWP Masing-Masing Anggota KSO", "FC KTP Masing-Masing Pengurus KSO", "FC NPWP Masing-Masing Pengurus KSO"]}, {"Cabang WP Badan": ["FC NPWP Pusat", "FC NPWP Penanggung Jawab Cabang", "FC KTP Penanggung Jawab Cabang"]}, {"Instansi Pemerintah": ["KEP Penunjukan KPA","FC KTP KPA", "FC NPWP KPA", "KEP Penunjukan Bendahara", "FC KTP Bendahara", "FC NPWP Bendahara"]}],
+        "lampiran": [{"Orang Pribadi": ["WNI: FC KTP", "WNA: FC Paspor dan KITAS atau KITAP"]}, {"Orang Pribadi Kawin Memilih Terpisah": ["FC KTP", "FC NPWP Suami", "FC KK atau Akta Perkawinan", "Surat perjanjian pisah harta"]}, {"Badan" : ["FC KTP Pengurus", "FC NPWP Pengurus", "FC Dokumen Pendirian"]}, {"Badan KSO": ["FC Perjanjian Kerjasama atau Akta KSO", "FC NPWP Masing-Masing Anggota KSO", "FC KTP & NPWP Masing-Masing Pengurus KSO"]}, {"Cabang WP Badan": ["FC NPWP Pusat", "FC NPWP Penanggung Jawab Cabang", "FC KTP Penanggung Jawab Cabang"]}, {"Instansi Pemerintah": ["KEP Penunjukan KPA","FC KTP & NPWP KPA", "KEP Penunjukan Bendahara", "FC KTP & NPWP Bendahara"]}],
         "jangkaWaktu": "1 Hari Kerja"
     },
     {
         "id": "2",
         "permohonan": "Perubahan Data NPWP",
         "formulir": [{"Formulir Perubahan Data Orang Pribadi": "https://drive.google.com/file/d/1bdvWaU3qVKzU0LZDZBqt5qCbn33z8KlG/view?usp=sharing"}, {"Formulir Perubahan Data Badan": "https://drive.google.com/file/d/1_0nPt4KLKQqMCrqQXkM0Ic18ldg0E-oo/view?usp=sharing"}, {"Formulir Perubahan Data Instansi Pemerintah": "https://drive.google.com/file/d/1kDS8IGVD1vnGUc93IE4vK7O1vISpFvBg/view?usp=sharing"}],
-        "lampiran": [{"Orang Pribadi": ["FC NPWP","WNI: FC KTP", "WNA: FC Paspor dan KITAS atau KITAP"]}, {"Badan" : ["FC NPWP Badan","FC KTP Pengurus", "FC NPWP Pengurus", "FC Dokumen Pendirian"]}, {"Instansi Pemerintah": ["KEP Penunjukan KPA","FC KTP KPA", "FC NPWP KPA", "KEP Penunjukan Bendahara", "FC KTP Bendahara", "FC NPWP Bendahara"]}],
+        "lampiran": [{"Orang Pribadi": ["FC NPWP","WNI: FC KTP", "WNA: FC Paspor dan KITAS atau KITAP"]}, {"Badan" : ["FC NPWP Badan","FC KTP & NPWP Pengurus", "FC Dokumen Pendirian"]}, {"Instansi Pemerintah": ["FC NPWP Instansi Pemerintah","KEP Penunjukan KPA","FC KTP & NPWP KPA", "KEP Penunjukan Bendahara", "FC KTP & NPWP Bendahara"]}],
         "jangkaWaktu": "1 Hari Kerja"
     },
     {
@@ -82,5 +82,19 @@
         "formulir": [{"Formulir Cetak NPWP Anggota Keluarga": "https://drive.google.com/file/d/1K1rnp97f6h9o4WZU3vqPmKKncEMdx9SC/view?usp=sharing"}],
         "lampiran": [{"Orang Pribadi": ["FC NPWP Kepala Keluarga", "FC KTP", "FC KK"]}],
         "jangkaWaktu": "1 hari Kerja"
+    },
+    {
+        "id": "13",
+        "permohonan": "Aktivasi EFIN",
+        "formulir": [{"Formulir Aktivasi EFIN": "https://drive.google.com/file/d/1FLbWGZqXdYhuF017LiunRQXVIT25aL06/view?usp=sharing"}],
+        "lampiran": [{"Orang Pribadi": ["FC NPWP","WNI: FC KTP", "WNA: FC Paspor dan KITAS atau KITAP"]}, {"Badan" : ["FC NPWP Badan","FC KTP & NPWP Pengurus", "FC Dokumen Pendirian"]}, {"Instansi Pemerintah": ["FC NPWP Instansi Pemerintaah","KEP Penunjukan KPA","FC KTP & NPWP KPA", "KEP Penunjukan Bendahara", "FC KTP & NPWP Bendahara"]}],
+        "jangkaWaktu": "1 Hari Kerja"
+    },
+    {
+        "id": "14",
+        "permohonan": "Pembubuhan Bea Meterai",
+        "formulir": [{"Formulir Pembubuhan Bea Meterai": "https://drive.google.com/file/d/1R8Ds8di0rCP7IB31_dFQRwrjbZNIEO71/view?usp=sharing"}],
+        "lampiran": [{"Orang Pribadi": ["FC NPWP & KTP", "Bukti Pembayaran"]}, {"Badan" : ["FC NPWP Badan","FC KTP & NPWP Pengurus", "Bukti Pembayaran"]}],
+        "jangkaWaktu": "1 Hari Kerja"
     }
 ]
