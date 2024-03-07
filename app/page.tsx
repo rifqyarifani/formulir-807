@@ -33,33 +33,31 @@ const Main = async () => {
           </div>
         </div>
         <div className=" text-center flex flex-col gap-4 bg-[#093B6E] ">
-          <div className=" container md:px-36 p-6">
+          <div className=" container md:px-36 p-6 flex flex-col gap-4">
             <h1 className=" text-yellow-400 font-bold text-3xl">
               Saluran Pengaduan Pelayanan
             </h1>
-            <p className=" font-medium text-xl text-white">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
-              laboriosam fuga quibusdam sit, magnam est consequatur odio
-              incidunt veniam. Aut similique, unde quisquam officiis laborum eos
-              cumque et consequuntur harum dicta, ducimus ad nam? Amet facilis
-              repellat libero fugit nemo, praesentium mollitia, autem
-              exercitationem alias, sunt tempora animi! Molestias, rerum!
-            </p>
-          </div>
-        </div>
-        <div className=" text-center flex flex-col gap-4">
-          <div className=" container md:px-36 p-6">
-            <h1 className=" text-[#093B6E] font-bold text-3xl">
-              Maklumat Pelayanan
-            </h1>
-            <p className=" font-medium text-xl">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
-              laboriosam fuga quibusdam sit, magnam est consequatur odio
-              incidunt veniam. Aut similique, unde quisquam officiis laborum eos
-              cumque et consequuntur harum dicta, ducimus ad nam? Amet facilis
-              repellat libero fugit nemo, praesentium mollitia, autem
-              exercitationem alias, sunt tempora animi! Molestias, rerum!
-            </p>
+            <ul className=" font-medium text-xl text-white flex flex-col sm:flex-row gap-2">
+              <li className=" hover:text-stone-300">
+                <a href="tel:1500200">Kring Pajak: 1500200</a>
+              </li>
+              <li className=" hover:text-stone-300">
+                <a href="mailto:pengaduan@pajak.go.id">
+                  Email Pengaduan: pengaduan@pajak.go.id
+                </a>
+              </li>
+              <li className=" hover:text-stone-300">
+                <a href="https://twitter.com/kringpajak">
+                  Twitter: @kring_pajak
+                </a>
+              </li>
+              <li>Faksimile: (021)5251245</li>
+              <li className=" hover:text-stone-300">
+                <a href="https://pengaduan.pajak.go.id/form">
+                  Situs Pajak: pengaduan.pajak.go.id
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
