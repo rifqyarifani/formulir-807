@@ -1,13 +1,14 @@
 import React from "react";
 import Image from "next/image";
 import hero from "@/img/hero.webp";
+import bantaeng from "@/img/darken-bantaeng.jpg";
 
 const Main = async () => {
   return (
     <>
       {" "}
       <Image
-        src={hero}
+        src={bantaeng}
         alt="Hero"
         fetchPriority="high"
         decoding="async"
