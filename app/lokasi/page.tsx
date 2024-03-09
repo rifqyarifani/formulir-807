@@ -21,7 +21,7 @@ const page = () => {
             <div className=" flex flex-col md:flex-row gap-4 items-center justify-between">
               <Image
                 src={bantaeng}
-                alt="foto kantor"
+                alt="Kantor KPP Pratama Bantaeng"
                 className=" w-full md:w-1/2 md:h-96 rounded-lg border-2 border-[#093B6E]"
               />
               <div className=" flex flex-col justify-between font-medium md:h-96 gap-4 md:w-1/2">
@@ -69,7 +69,7 @@ const page = () => {
             <div className=" flex flex-col md:flex-row gap-4 items-center justify-between">
               <Image
                 src={gowa}
-                alt="foto kantor"
+                alt="Kantor KP2KP Sungguminasa"
                 className=" w-full md:w-1/2 md:h-96 rounded-lg border border-yellow-400"
               />
               <div className=" flex flex-col justify-between font-medium md:h-96 gap-4 md:w-1/2">
@@ -124,7 +124,7 @@ const page = () => {
             <div className=" flex flex-col md:flex-row gap-4 items-center justify-between">
               <Image
                 src={takalar}
-                alt="foto kantor"
+                alt="Kantor KP2KP Takalar"
                 className=" w-full md:w-1/2 md:h-96 rounded-lg border-2 border-[#093B6E]"
               />
               <div className=" flex flex-col justify-between font-medium md:h-96 gap-4 md:w-1/2">
@@ -166,7 +166,7 @@ const page = () => {
             <div className=" flex flex-col md:flex-row gap-4 items-center justify-between">
               <Image
                 src={bontosunggu}
-                alt="foto kantor"
+                alt="Kantor KP2KP Bontosunggu"
                 className=" w-full md:w-1/2 md:h-96 rounded-lg border border-yellow-400"
               />
               <div className=" flex flex-col justify-between font-medium md:h-96 gap-4 md:w-1/2">

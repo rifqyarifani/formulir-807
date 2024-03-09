@@ -9,7 +9,7 @@ const Main = async () => {
       {" "}
       <Image
         src={bantaeng}
-        alt="Hero"
+        alt="Kantor KPP Pratama Bantaeng"
         fetchPriority="high"
         decoding="async"
         className="object-cover w-full md:h-[44.7vw] h-[500px]"
