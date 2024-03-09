@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import bantaeng from "@/img/bantaeng.jpg";
-import gowa from "@/img/gowa.jpg";
+import gowa from "@/img/gowa.jpeg";
 import takalar from "@/img/takalar.jpg";
 import bontosunggu from "@/img/bontosunggu.jpg";
 import { BsFillTelephoneFill } from "react-icons/bs";
