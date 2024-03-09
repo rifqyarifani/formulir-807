@@ -1,9 +1,9 @@
 import Image from "next/image";
 import React from "react";
-import bantaeng from "@/img/bantaeng.jpg";
-import gowa from "@/img/gowa.jpeg";
-import takalar from "@/img/takalar.jpg";
-import bontosunggu from "@/img/bontosunggu.jpg";
+import bantaeng from "@/img/bantaeng.webp";
+import gowa from "@/img/gowa.webp";
+import takalar from "@/img/takalar.webp";
+import bontosunggu from "@/img/bontosunggu.webp";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { MdEmail } from "react-icons/md";

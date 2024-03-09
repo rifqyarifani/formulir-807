@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import bantaeng from "@/img/darken-bantaeng.jpg";
+import bantaeng from "@/img/darken-bantaeng.webp";
 
 const Main = async () => {
   return (
