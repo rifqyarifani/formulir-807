@@ -96,5 +96,33 @@
         "formulir": [{"Formulir Pembubuhan Bea Meterai": "https://drive.google.com/file/d/1R8Ds8di0rCP7IB31_dFQRwrjbZNIEO71/view?usp=sharing"}],
         "lampiran": [{"Orang Pribadi": ["FC NPWP & KTP", "Bukti Pembayaran"]}, {"Badan" : ["FC NPWP Badan","FC KTP & NPWP Pengurus", "Bukti Pembayaran"]}],
         "jangkaWaktu": "1 Hari Kerja"
+    },
+    {
+        "id": "15",
+        "permohonan": "Pengurangan atau Penghapusan Sanksi Administrasi (Pasal 36 ayat (1) huruf a)",
+        "formulir": [{"Formulir Pengurangan atau Penghapusan Sanksi Administrasi": "https://drive.google.com/file/d/1V_cEeBEStHuv2eg6fDPRZE31eEsYxxqV/view?usp=sharing"}],
+        "lampiran": [{"Orang Pribadi atau Badan": ["Salinan STP atau SKP", "Surat kuasa dalam hal dikuasakan", "Salinan KTP Penerima Kuasa"]}],
+        "jangkaWaktu": "6 Bulan"
+    },
+    {
+        "id": "16",
+        "permohonan": "Pengurangan atau Pembatalan SKP (Pasal 36 ayat (1) huruf b)",
+        "formulir": [{"Formulir Pengurangan atau Pembatalan SKP": "https://drive.google.com/file/d/1k13fYQYB4HF5OBD8REyV1l9n5xLiw7w2/view?usp=sharing"}],
+        "lampiran": [{"Orang Pribadi atau Badan": ["Salinan SKP", "Surat kuasa dalam hal dikuasakan", "Salinan KTP Penerima Kuasa"]}],
+        "jangkaWaktu": "6 Bulan"
+    },
+    {
+        "id": "17",
+        "permohonan": "Pengurangan atau Pembatalan STP (Pasal 36 ayat (1) huruf c)",
+        "formulir": [{"Formulir Pengurangan atau Pembatalan STP": "https://drive.google.com/file/d/1Egfqt0ThF0wY-I7g3H6IqRIFimPMZAd6/view?usp=sharing"}],
+        "lampiran": [{"Orang Pribadi atau Badan": ["Salinan STP", "Surat kuasa dalam hal dikuasakan", "Salinan KTP Penerima Kuasa"]}],
+        "jangkaWaktu": "6 Bulan"
+    },
+    {
+        "id": "18",
+        "permohonan": "Pembatalan SKP Hasil Pemeriksaan (Pasal 36 ayat (1) huruf d)",
+        "formulir": [{"Formulir Pengurangan atau Pembatalan STP": "https://drive.google.com/file/d/17V5G2jr7KmXs4JILzlFyxNBA_rZCdua0/view?usp=sharing"}],
+        "lampiran": [{"Orang Pribadi atau Badan": ["Salinan SKP", "Surat kuasa dalam hal dikuasakan", "Salinan KTP Penerima Kuasa"]}],
+        "jangkaWaktu": "6 Bulan"
     }
 ]
