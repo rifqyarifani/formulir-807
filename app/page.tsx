@@ -14,9 +14,12 @@ const Main = async () => {
         className="object-cover w-full md:h-[44.7vw] h-[500px]"
       />
       <div className="">
-        <div className="flex flex-col justify-center items-center gap-4 absolute top-80 left-0 right-0 text-white font-bold select-none">
+        <div className="flex flex-col justify-center items-center absolute top-80 left-0 right-0 text-white font-bold select-none">
           <h1 className="md:text-6xl text-4xl border p-2">
             KPP Pratama Bantaeng
+          </h1>
+          <h1 className="md:text-4xl text-2xl p-2 text-yellow-400">
+            Pajak Kuat, APBN Sehat
           </h1>
         </div>
         <div className=" text-center flex flex-col gap-4">

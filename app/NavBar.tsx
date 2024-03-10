@@ -5,6 +5,8 @@ import React from "react";
 import { FaBars } from "react-icons/fa6";
 import { FaX } from "react-icons/fa6";
 import { useState } from "react";
+import logo from "@/app/icon.png";
+import Image from "next/image";
 
 const NavBar = () => {
   const [toggle, setToggle] = useState(false);
@@ -21,14 +23,23 @@ const NavBar = () => {
 
   return (
     <>
-      <div className=" bg-[#093B6E] z-50">
+      <div className=" bg-[#093B6E] z-50 fixed w-full">
         <div className="flex h-14 font-bold items-center justify-between container p-6 md:px-36 text-white">
           <p className="text-xl cursor-pointer hover:text-stone-300 transition duration-150">
             <Link href="/" legacyBehavior passHref>
-              Dashboard
+              <Image
+                src={logo}
+                alt="Kantor KPP Pratama Bantaeng"
+                fetchPriority="high"
+                decoding="async"
+                className=" w-10 h-10"
+              />
             </Link>
           </p>
           <ul className=" md:flex gap-6 text-lg hidden">
+            <li className=" cursor-pointer hover:text-stone-300 transition duration-150">
+              <Link href="/">Dashboard</Link>
+            </li>
             <li className=" cursor-pointer hover:text-stone-300 transition duration-150">
               <Link href="/permohonan">Permohonan</Link>
             </li>

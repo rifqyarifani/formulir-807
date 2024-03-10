@@ -10,8 +10,8 @@ import Footer from "./Footer";
 const jakartaSans = Plus_Jakarta_Sans({ display: "swap", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Formulir",
-  description: "Formulir Permohonan",
+  title: "KPP Pratama Banteng",
+  description: "Website KPP Pratama Bantaeng",
 };
 
 export default function RootLayout({
