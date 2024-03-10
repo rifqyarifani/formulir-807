@@ -2,12 +2,12 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 import { Theme } from "@radix-ui/themes";
 import "@radix-ui/themes/styles.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Plus_Jakarta_Sans } from "next/font/google";
 import NavBar from "./NavBar";
 import "./globals.css";
 import Footer from "./Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const jakartaSans = Plus_Jakarta_Sans({ display: "swap", subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Formulir",
@@ -21,7 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${inter.className} w-screen`}>
+      <body className={`${jakartaSans.className} w-screen`}>
         <Theme>
           <ThemeProvider
             attribute="class"
