@@ -57,17 +57,28 @@ const DetailPage = async ({ params }: Props) => {
                   className=""
                   key={detail[0]}
                 >
-                  {detail[0]}
+                  <div className=" flex items-center gap-1">
+                    <FaDownload />
+                    {detail[0]}
+                  </div>
                 </a>
-                <a
+                {/* <a
                   href={detail[1]}
                   target="_blank"
                   className=""
                   key={detail[0]}
                 >
                   <FaDownload />
-                </a>
+                </a> */}
               </li>
+            ))}
+          </div>
+          <div className=" mb-8">
+            <h2 className=" font-bold text-2xl text-[#093B6E]">
+              Saluran Permohonan
+            </h2>
+            {permohonan.saluran.map((obj: any) => (
+              <li key={obj}>{obj}</li>
             ))}
           </div>
           <div className=" mb-8">
