@@ -32,7 +32,7 @@ const DetailPage = async ({ params }: Props) => {
     <>
       <div className=" py-6 container md:px-36 ">
         <Link href="/permohonan">
-          <div className="text-xs inline-flex items-center px-4 py-2 border border-transparent font-medium rounded-md text-white bg-balance hover:bg-opacity-75 bg-gray-900 mb-6">
+          <div className="text-xs inline-flex items-center px-4 py-2 border border-transparent font-medium rounded-md text-white bg-balance hover:bg-opacity-75 bg-gray-900 mt-10">
             <ChevronLeftIcon className="w-2.5 h-2.5" />
             <span className="ml-2">Kembali</span>
           </div>
