@@ -7,7 +7,7 @@ import { FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className=" bg-gradient-to-r from-purple-500 to-pink-500 text-white font-medium w-full bottom-0 mt-4">
+    <div className="  text-white font-medium w-full bottom-0 bg-third">
       <div className=" container flex flex-col md:flex-row items-center justify-between sm:px-36 p-6 gap-2">
         <p className=" text-center">
           Copyright © 2024. All rights are reserved. KPP Pratama Bantaeng

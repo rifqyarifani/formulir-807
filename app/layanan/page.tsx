@@ -10,7 +10,7 @@ const TableData = async () => {
           Daftar Formulir
         </h1>
       </div>
-      <div className="xl:container md:px-36 p-6">
+      <div className="md:px-36 p-6 container">
         <DataTable columns={columns} data={data} />
       </div>
     </>

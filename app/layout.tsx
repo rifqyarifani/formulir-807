@@ -30,7 +30,7 @@ export default function RootLayout({
             disableTransitionOnChange
           >
             <NavBar />
-            <main className=" bg-gradient-to-r from-purple-500 to-pink-500 text-white">
+            <main className=" bg-gradient-to-b from-purple-500 to-pink-500 text-white">
               {children}
             </main>
             <Footer />

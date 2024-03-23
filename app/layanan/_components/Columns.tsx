@@ -6,59 +6,59 @@ import Link from "next/link";
 
 export type Dokumen = {
   id: string;
-  permohonan: string;
+  layanan: string;
   jangkaWaktu: string;
 };
 
 export const columns: ColumnDef<Dokumen>[] = [
   {
-    accessorKey: "permohonan",
+    accessorKey: "layanan",
     header: ({ column }) => {
       return (
-        <div className=" text-left text-white">
+        <div className=" text-center text-white">
           <Button
             variant="ghost"
-            className=" font-extrabold"
+            className=" font-extrabold text-xl"
             onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
           >
-            Permohonan
+            Layanan
             <ArrowUpDown className="ml-2 h-4 w-4" />
           </Button>
         </div>
       );
     },
     cell: ({ row }) => (
-      <Link href={`/permohonan/${row.getValue("permohonan")}`}>
-        <div className=" text-left font-normal text-white hover:text-gray-400">
+      <Link href={`/layanan/${row.getValue("layanan")}`}>
+        <div className=" text-center font-normal text-gray-900 hover:text-gray-400">
           {" "}
-          {row.getValue("permohonan")}
+          {row.getValue("layanan")}
         </div>
       </Link>
     ),
   },
-  {
-    accessorKey: "jangkaWaktu",
-    header: ({ column }) => {
-      return (
-        <div className=" text-left text-white">
-          <Button
-            variant="ghost"
-            className=" font-extrabold"
-            onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
-          >
-            Jangka Waktu
-            <ArrowUpDown className="ml-2 h-4 w-4" />
-          </Button>
-        </div>
-      );
-    },
-    cell: ({ row }) => (
-      <Link href={`/permohonan/${row.getValue("jangkaWaktu")}`}>
-        <div className=" text-left font-normal text-white hover:text-gray-400">
-          {" "}
-          {row.getValue("jangkaWaktu")}
-        </div>
-      </Link>
-    ),
-  },
+  // {
+  //   accessorKey: "jangkaWaktu",
+  //   header: ({ column }) => {
+  //     return (
+  //       <div className=" text-center text-white">
+  //         <Button
+  //           variant="ghost"
+  //           className=" font-extrabold text-xl"
+  //           onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
+  //         >
+  //           Jangka Waktu
+  //           <ArrowUpDown className="ml-2 h-4 w-4" />
+  //         </Button>
+  //       </div>
+  //     );
+  //   },
+  //   cell: ({ row }) => (
+  //     <Link href={`/permohonan/${row.getValue("jangkaWaktu")}`}>
+  //       <div className=" text-center font-normal text-gray-900 hover:text-gray-400">
+  //         {" "}
+  //         {row.getValue("jangkaWaktu")}
+  //       </div>
+  //     </Link>
+  //   ),
+  // },
 ];

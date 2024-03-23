@@ -54,7 +54,7 @@ export function DataTable<TData, TValue>({
 
   return (
     <div>
-      <div className="flex items-center pb-4">
+      <div className="flex items-center pb-4 text-third">
         <Input
           placeholder="Cari Permohonan..."
           value={
@@ -65,9 +65,9 @@ export function DataTable<TData, TValue>({
           }
         />
       </div>
-      <div className="rounded-md border">
-        <Table>
-          <TableHeader>
+      <div className="border overflow-hidden rounded-md">
+        <Table className="">
+          <TableHeader className=" bg-third">
             {table.getHeaderGroups().map((headerGroup) => (
               <TableRow key={headerGroup.id}>
                 {headerGroup.headers.map((header) => {
@@ -87,10 +87,13 @@ export function DataTable<TData, TValue>({
           </TableHeader>
           <TableBody>
             {table.getRowModel().rows?.length ? (
-              table.getRowModel().rows.map((row) => (
+              table.getRowModel().rows.map((row, i) => (
                 <TableRow
                   key={row.id}
                   data-state={row.getIsSelected() && "selected"}
+                  className={`
+                  ${i % 2 === 0 ? "bg-gray-100" : "bg-gray-200"}
+                  `}
                 >
                   {row.getVisibleCells().map((cell) => (
                     <TableCell key={cell.id}>
@@ -106,9 +109,9 @@ export function DataTable<TData, TValue>({
               <TableRow>
                 <TableCell
                   colSpan={columns.length}
-                  className="h-24 text-center"
+                  className="h-24 text-center font-black text-2xl bg-white text-third"
                 >
-                  No results.
+                  Permohonan Tidak Ditemukan
                 </TableCell>
               </TableRow>
             )}
