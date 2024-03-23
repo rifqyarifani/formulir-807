@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import bantaeng from "@/img/darken-bantaeng.webp";
+import { BsFillTelephoneFill } from "react-icons/bs";
 
 const Main = async () => {
   return (
@@ -24,10 +25,10 @@ const Main = async () => {
         </div>
         <div className=" text-center flex flex-col gap-4">
           <div className=" container md:px-36 p-6 flex flex-col gap-4">
-            <h1 className=" text-[#093B6E] font-bold text-3xl">
+            <h1 className="  text-white font-black text-3xl uppercase">
               Maklumat Pelayanan
             </h1>
-            <p className=" font-medium text-xl">
+            <p className=" font-light text-base text-white">
               Dengan ini kami menyatakan sanggup menyelenggarakan pelayanan
               sesuai Standar Pelayanan yang telah di tetapkan dan apabila tidak
               menepati janji ini, kami siap menerima saksi sesuai peraturan
@@ -36,11 +37,19 @@ const Main = async () => {
           </div>
         </div>
         <div className=" text-center flex flex-col gap-4 bg-[#093B6E] ">
-          <div className=" container md:px-36 p-6 flex flex-col gap-4">
-            <h1 className=" text-yellow-400 font-bold text-3xl">
+          <div className=" container md:px-36 p-4 flex flex-col gap-4">
+            <h1 className=" text-yellow-400 font-black uppercase text-3xl">
               Saluran Pengaduan Pelayanan
             </h1>
-            <ul className=" font-medium text-xl text-white flex flex-col sm:flex-row gap-2">
+            <div className=" flex flex-col">
+              <div className=" w-32 h-32 bg-[#0A304F] flex justify-center items-center rounded-full">
+                <BsFillTelephoneFill className=" text-7xl text-white border-b-emerald-600" />
+              </div>
+              <h1>Kring Pajak</h1>
+            </div>
+
+            {/* 
+            <ul className=" font-medium text-lg text-white flex flex-col sm:flex-row gap-2">
               <li className=" hover:text-stone-300">
                 <a href="tel:1500200">Kring Pajak: 1500200</a>
               </li>
@@ -60,7 +69,7 @@ const Main = async () => {
                   Situs Pajak: pengaduan.pajak.go.id
                 </a>
               </li>
-            </ul>
+            </ul> */}
           </div>
         </div>
       </div>

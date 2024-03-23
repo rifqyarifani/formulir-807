@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import React from "react";
 import bantaeng from "@/img/bantaeng.webp";
@@ -24,24 +26,24 @@ const page = () => {
                 alt="Kantor KPP Pratama Bantaeng"
                 className=" w-full md:w-1/2 md:h-96 rounded-lg border-2 border-[#093B6E]"
               />
-              <div className=" flex flex-col justify-between font-medium md:h-96 gap-4 md:w-1/2">
+              <div className=" flex flex-col justify-between font-medium md:h-96 gap-4 md:w-1/2 text-[#093B6E]">
                 <div className=" text-left flex flex-col gap-2">
-                  <h1 className=" text-[#093B6E] font-bold text-3xl">
+                  <h1 className="  font-black uppercase text-3xl">
                     KPP Pratama Bantaeng
                   </h1>
-                  <h3>
+                  <h3 className=" font-extralight">
                     Jl. Andi Mannapiang, Lamalaka, Kec. Bantaeng, Kab. Bantaeng,
                     Sulawesi Selatan 92415
                   </h3>
                   <a
                     href="tel:041321189"
-                    className=" hover:text-stone-300 flex items-center gap-2"
+                    className=" hover:text-stone-300 flex items-center gap-2 font-extralight"
                   >
                     <BsFillTelephoneFill /> (0413) 21189
                   </a>
                   <a
                     href="https://wa.me/628114002807"
-                    className=" hover:text-stone-300 flex items-center gap-2"
+                    className=" hover:text-stone-300 flex items-center gap-2 font-light"
                     target="_blank"
                   >
                     <IoLogoWhatsapp /> 08114002807
@@ -65,7 +67,7 @@ const page = () => {
       </div>
       <div className=" flex flex-col gap-8 mb-4">
         <div className=" container md:px-36 text-center">
-          <div className=" bg-[#093B6E] flex flex-col p-6 rounded-xl gap-4 border">
+          <div className=" bg-gradient-to-r from-purple-500 to-pink-500 flex flex-col p-6 rounded-xl gap-4">
             <div className=" flex flex-col md:flex-row gap-4 items-center justify-between">
               <Image
                 src={gowa}

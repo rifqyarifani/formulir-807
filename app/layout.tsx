@@ -2,12 +2,12 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 import { Theme } from "@radix-ui/themes";
 import "@radix-ui/themes/styles.css";
 import type { Metadata } from "next";
-import { Plus_Jakarta_Sans } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import NavBar from "./NavBar";
 import "./globals.css";
 import Footer from "./Footer";
 
-const jakartaSans = Plus_Jakarta_Sans({ display: "swap", subsets: ["latin"] });
+const montserrat = Montserrat({ display: "swap", subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "KPP Pratama Banteng",
@@ -21,7 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${jakartaSans.className} w-screen`}>
+      <body className={`${montserrat.className} w-screen`}>
         <Theme>
           <ThemeProvider
             attribute="class"
@@ -30,7 +30,9 @@ export default function RootLayout({
             disableTransitionOnChange
           >
             <NavBar />
-            <main className=" bg-[#F7F9FA]">{children}</main>
+            <main className=" bg-gradient-to-r from-purple-500 to-pink-500 text-white">
+              {children}
+            </main>
             <Footer />
           </ThemeProvider>
         </Theme>
