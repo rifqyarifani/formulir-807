@@ -47,7 +47,7 @@ const NavBar = () => {
       <div
         className={`z-50 fixed w-full ${
           isScrolled && pathname === "/"
-            ? "bg-white text-first"
+            ? "bg-white text-first shadow"
             : pathname !== "/"
             ? "bg-white text-first"
             : "text-white"

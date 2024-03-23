@@ -2,6 +2,12 @@ import React from "react";
 import Image from "next/image";
 import bantaeng from "@/img/darken-bantaeng.webp";
 import { BsFillTelephoneFill } from "react-icons/bs";
+import { MdEmail } from "react-icons/md";
+import { FaTwitter } from "react-icons/fa";
+import { MdChatBubble } from "react-icons/md";
+import { TbWorldWww } from "react-icons/tb";
+
+import Link from "next/link";
 
 const Main = async () => {
   return (
@@ -12,19 +18,24 @@ const Main = async () => {
         alt="Kantor KPP Pratama Bantaeng"
         fetchPriority="high"
         decoding="async"
-        className="object-cover w-full md:h-[44.7vw] h-[500px]"
+        className="object-cover w-full md:h-screen h-[500px]"
       />
       <div className="">
         <div className="flex flex-col justify-center items-center absolute top-80 left-0 right-0 text-white font-bold select-none">
-          <h1 className="md:text-6xl text-4xl border p-2">
-            KPP Pratama Bantaeng
+          <h1 className="md:text-6xl text-4xl bg-gradient-to-r from-pink-500 to-purple-400 inline-block text-transparent bg-clip-text">
+            SIRUJAK BANTAENG
           </h1>
-          <h1 className="md:text-4xl text-2xl p-2 text-yellow-400">
-            Pajak Kuat, APBN Sehat
+          <h1 className="md:text-4xl text-2xl text-white font-normal">
+            Situs Rumah Pajak Bantaeng
+          </h1>
+        </div>
+        <div className=" text-center bg-white p-2 font-black">
+          <h1 className=" text-4xl bg-gradient-to-r from-pink-500 to-purple-400 inline-block text-transparent bg-clip-text">
+            Pajak Kuat APBN Sehat
           </h1>
         </div>
         <div className=" text-center flex flex-col gap-4">
-          <div className=" container md:px-36 p-6 flex flex-col gap-4">
+          <div className=" container md:px-36 p-6 flex flex-col gap-2">
             <h1 className="  text-white font-black text-3xl uppercase">
               Maklumat Pelayanan
             </h1>
@@ -36,16 +47,52 @@ const Main = async () => {
             </p>
           </div>
         </div>
-        <div className=" text-center flex flex-col gap-4 bg-[#093B6E] ">
+        <div className=" text-center flex flex-col gap-4 bg-white text-second">
           <div className=" container md:px-36 p-4 flex flex-col gap-4">
-            <h1 className=" text-yellow-400 font-black uppercase text-3xl">
+            <h1 className=" text-first font-black uppercase text-3xl">
               Saluran Pengaduan Pelayanan
             </h1>
-            <div className=" flex flex-col">
-              <div className=" w-32 h-32 bg-[#0A304F] flex justify-center items-center rounded-full">
-                <BsFillTelephoneFill className=" text-7xl text-white border-b-emerald-600" />
-              </div>
-              <h1>Kring Pajak</h1>
+            <div className=" flex flex-col flex-wrap md:flex-row gap-2 md:gap-8 md:justify-between">
+              <Link href="tel:1500200" target="_blank">
+                <div className=" flex flex-col items-center">
+                  <div className=" w-20 h-20 bg-gradient-to-r from-pink-500 to-purple-500 hover:opacity-70 flex justify-center items-center rounded-full">
+                    <BsFillTelephoneFill className=" text-5xl text-white" />
+                  </div>
+                  <h1 className="text-first">1500200</h1>
+                </div>
+              </Link>
+              <Link href="mailto:pengaduan@pajak.go.id" target="_blank">
+                <div className=" flex flex-col items-center">
+                  <div className=" w-20 h-20 bg-gradient-to-r from-pink-500 to-purple-500 hover:opacity-70 flex justify-center items-center rounded-full">
+                    <MdEmail className=" text-5xl text-white" />
+                  </div>
+                  <h1 className=" text-first">pengaduan@pajak.go.id</h1>
+                </div>
+              </Link>
+              <Link href="https://twitter.com/kringpajak" target="_blank">
+                <div className=" flex flex-col items-center">
+                  <div className=" w-20 h-20 bg-gradient-to-r from-pink-500 to-purple-500 hover:opacity-70 flex justify-center items-center rounded-full">
+                    <FaTwitter className=" text-5xl text-white" />
+                  </div>
+                  <h1 className=" text-first">@kring_pajak</h1>
+                </div>
+              </Link>
+              <Link href="https://pengaduan.pajak.go.id/form" target="_blank">
+                <div className=" flex flex-col items-center">
+                  <div className=" w-20 h-20 bg-gradient-to-r from-pink-500 to-purple-500 hover:opacity-70 flex justify-center items-center rounded-full">
+                    <TbWorldWww className=" text-5xl text-white" />
+                  </div>
+                  <h1 className=" text-first">pengaduan.pajak.go.id</h1>
+                </div>
+              </Link>
+              <Link href="https://www.pajak.go.id" target="_blank">
+                <div className=" flex flex-col items-center">
+                  <div className=" w-20 h-20 bg-gradient-to-r from-pink-500 to-purple-500 hover:opacity-70 flex justify-center items-center rounded-full">
+                    <MdChatBubble className=" text-5xl text-white" />
+                  </div>
+                  <h1 className=" text-first">Chat Pajak</h1>
+                </div>
+              </Link>
             </div>
 
             {/* 
