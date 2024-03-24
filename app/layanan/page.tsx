@@ -7,7 +7,7 @@ const TableData = async () => {
     <>
       <div className=" flex pt-20 justify-center container">
         <h1 className=" text-center text-3xl uppercase text-white font-black">
-          Daftar Formulir
+          Layanan
         </h1>
       </div>
       <div className="md:px-36 p-6 container">

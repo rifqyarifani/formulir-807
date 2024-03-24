@@ -49,7 +49,7 @@ const NavBar = () => {
           isScrolled && pathname === "/"
             ? "bg-white text-first shadow"
             : pathname !== "/"
-            ? "bg-white text-first"
+            ? "bg-white text-first shadow"
             : "text-white"
         }`}
       >
