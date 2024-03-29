@@ -99,9 +99,9 @@ const DetailPage = async ({ params }: Props) => {
           <h2 className=" text-xl text-center text-white w-60 border-white border p-2 rounded-full font-black mb-2">
             Lampiran
           </h2>
-          <div className=" grid md:grid-cols-2">
-            {lampiranList.map((detail: any) => (
-              <div key={detail}>
+          <div className={`grid md:grid-cols-2`}>
+            {lampiranList.map((detail: any, index: any) => (
+              <div key={index} className=" ws">
                 <h2
                   key={detail}
                   className=" py-2 font-medium text-lg  underline underline-offset-4 decoration-2 decoration-white"

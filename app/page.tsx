@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import bantaeng from "@/img/darken-bantaeng.webp";
+import hero from "@/img/hero.png";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { FaTwitter } from "react-icons/fa";
@@ -14,21 +15,21 @@ const Main = async () => {
     <>
       {" "}
       <Image
-        src={bantaeng}
+        src={hero}
         alt="Kantor KPP Pratama Bantaeng"
         fetchPriority="high"
         decoding="async"
-        className="object-cover w-full md:h-screen h-[500px]"
+        className="md:object-cover w-full md:h-screen h-[300px] object-fill"
       />
       <div className="">
-        <div className="flex flex-col justify-center items-center absolute top-80 left-0 right-0 text-white font-bold select-none">
+        {/* <div className="flex flex-col justify-center items-center absolute top-80 left-0 right-0 text-white font-bold select-none">
           <h1 className="md:text-6xl text-4xl bg-gradient-to-r from-pink-500 to-purple-400 inline-block text-transparent bg-clip-text">
             SIRUJAK BANTAENG
           </h1>
           <h1 className="md:text-4xl text-2xl text-white font-normal">
             Situs Rumah Pajak Bantaeng
           </h1>
-        </div>
+        </div> */}
         <div className=" text-center bg-white p-2 font-black">
           <h1 className=" text-4xl bg-gradient-to-r from-pink-500 to-purple-400 inline-block text-transparent bg-clip-text">
             Pajak Kuat APBN Sehat
@@ -52,7 +53,7 @@ const Main = async () => {
             <h1 className=" text-first font-black uppercase text-3xl">
               Saluran Pengaduan Pelayanan
             </h1>
-            <div className=" flex flex-col flex-wrap md:flex-row gap-2 md:gap-8 md:justify-between">
+            <div className=" flex flex-wrap md:flex-row gap-8 md:justify-between justify-center">
               <Link href="tel:1500200" target="_blank">
                 <div className=" flex flex-col items-center">
                   <div className=" w-20 h-20 bg-gradient-to-r from-pink-500 to-purple-500 hover:opacity-70 flex justify-center items-center rounded-full">

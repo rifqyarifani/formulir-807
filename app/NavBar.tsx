@@ -5,6 +5,7 @@ import React, { useState, useEffect } from "react";
 import { FaBars } from "react-icons/fa6";
 import { FaX } from "react-icons/fa6";
 import logo from "@/app/icon.png";
+import logoSirujak from "@/img/logo.png";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 
