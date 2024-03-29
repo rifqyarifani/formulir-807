@@ -19,7 +19,7 @@ const Main = async () => {
         alt="Kantor KPP Pratama Bantaeng"
         fetchPriority="high"
         decoding="async"
-        className="md:object-cover w-full md:h-screen h-[300px] object-fill"
+        className="md:object-cover w-full md:h-screen h-[250px] object-fill"
       />
       <div className="">
         {/* <div className="flex flex-col justify-center items-center absolute top-80 left-0 right-0 text-white font-bold select-none">
@@ -31,13 +31,13 @@ const Main = async () => {
           </h1>
         </div> */}
         <div className=" text-center bg-white p-2 font-black">
-          <h1 className=" text-4xl bg-gradient-to-r from-pink-500 to-purple-400 inline-block text-transparent bg-clip-text">
+          <h1 className=" md:text-4xl text-2xl bg-gradient-to-r from-pink-500 to-purple-400 inline-block text-transparent bg-clip-text">
             Pajak Kuat APBN Sehat
           </h1>
         </div>
         <div className=" text-center flex flex-col gap-4">
-          <div className=" container md:px-36 p-6 flex flex-col gap-2">
-            <h1 className="  text-white font-black text-3xl uppercase">
+          <div className=" container md:px-36 p-4 flex flex-col gap-2">
+            <h1 className="  text-white font-black md:text-4xl text-2xl uppercase">
               Maklumat Pelayanan
             </h1>
             <p className=" font-light text-base text-white">
@@ -49,47 +49,47 @@ const Main = async () => {
           </div>
         </div>
         <div className=" text-center flex flex-col gap-4 bg-white text-second">
-          <div className=" container md:px-36 p-4 flex flex-col gap-4">
-            <h1 className=" text-first font-black uppercase text-3xl">
+          <div className=" container md:px-36 p-4 flex flex-col gap-2">
+            <h1 className=" text-first font-black uppercase md:text-4xl text-2xl">
               Saluran Pengaduan Pelayanan
             </h1>
-            <div className=" flex flex-wrap md:flex-row gap-8 md:justify-between justify-center">
+            <div className=" flex flex-wrap md:flex-row gap-8 md:justify-between justify-center text-sm md:text-base">
               <Link href="tel:1500200" target="_blank">
                 <div className=" flex flex-col items-center">
-                  <div className=" w-20 h-20 bg-gradient-to-r from-pink-500 to-purple-500 hover:opacity-70 flex justify-center items-center rounded-full">
-                    <BsFillTelephoneFill className=" text-5xl text-white" />
+                  <div className=" w-14 h-14 md:w-20 md:h-20 bg-gradient-to-r from-pink-500 to-purple-500 hover:opacity-70 flex justify-center items-center rounded-full">
+                    <BsFillTelephoneFill className=" text-2xl md:text-5xl text-white" />
                   </div>
                   <h1 className="text-first">1500200</h1>
                 </div>
               </Link>
               <Link href="mailto:pengaduan@pajak.go.id" target="_blank">
                 <div className=" flex flex-col items-center">
-                  <div className=" w-20 h-20 bg-gradient-to-r from-pink-500 to-purple-500 hover:opacity-70 flex justify-center items-center rounded-full">
-                    <MdEmail className=" text-5xl text-white" />
+                  <div className=" w-14 h-14 md:w-20 md:h-20 bg-gradient-to-r from-pink-500 to-purple-500 hover:opacity-70 flex justify-center items-center rounded-full">
+                    <MdEmail className=" text-2xl md:text-5xl text-white" />
                   </div>
                   <h1 className=" text-first">pengaduan@pajak.go.id</h1>
                 </div>
               </Link>
               <Link href="https://twitter.com/kringpajak" target="_blank">
                 <div className=" flex flex-col items-center">
-                  <div className=" w-20 h-20 bg-gradient-to-r from-pink-500 to-purple-500 hover:opacity-70 flex justify-center items-center rounded-full">
-                    <FaTwitter className=" text-5xl text-white" />
+                  <div className=" w-14 h-14 md:w-20 md:h-20 bg-gradient-to-r from-pink-500 to-purple-500 hover:opacity-70 flex justify-center items-center rounded-full">
+                    <FaTwitter className=" text-2xl md:text-5xl text-white" />
                   </div>
                   <h1 className=" text-first">@kring_pajak</h1>
                 </div>
               </Link>
               <Link href="https://pengaduan.pajak.go.id/form" target="_blank">
                 <div className=" flex flex-col items-center">
-                  <div className=" w-20 h-20 bg-gradient-to-r from-pink-500 to-purple-500 hover:opacity-70 flex justify-center items-center rounded-full">
-                    <TbWorldWww className=" text-5xl text-white" />
+                  <div className=" w-14 h-14 md:w-20 md:h-20 bg-gradient-to-r from-pink-500 to-purple-500 hover:opacity-70 flex justify-center items-center rounded-full">
+                    <TbWorldWww className=" text-2xl md:text-5xl text-white" />
                   </div>
                   <h1 className=" text-first">pengaduan.pajak.go.id</h1>
                 </div>
               </Link>
               <Link href="https://www.pajak.go.id" target="_blank">
                 <div className=" flex flex-col items-center">
-                  <div className=" w-20 h-20 bg-gradient-to-r from-pink-500 to-purple-500 hover:opacity-70 flex justify-center items-center rounded-full">
-                    <MdChatBubble className=" text-5xl text-white" />
+                  <div className=" w-14 h-14 md:w-20 md:h-20 bg-gradient-to-r from-pink-500 to-purple-500 hover:opacity-70 flex justify-center items-center rounded-full">
+                    <MdChatBubble className=" text-2xl md:text-5xl text-white" />
                   </div>
                   <h1 className=" text-first">Chat Pajak</h1>
                 </div>
