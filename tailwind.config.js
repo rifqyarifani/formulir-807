@@ -24,6 +24,7 @@ module.exports = {
         second: "#ec4899",
         third: "#200094",
         fourth: "#a426ff",
+        fifth: "#3e0b3f",
       },
       borderRadius: {
         lg: "var(--radius)",

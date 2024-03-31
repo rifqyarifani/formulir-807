@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import bantaeng from "@/img/darken-bantaeng.webp";
 import hero from "@/img/hero.png";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";

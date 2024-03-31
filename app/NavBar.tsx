@@ -39,7 +39,7 @@ const NavBar = () => {
     ["Beranda", "/"],
     ["Layanan", "/layanan"],
     ["Profil", "/profil"],
-    ["Galeri", "/galeri"],
+    // ["Galeri", "/galeri"],
     ["Lokasi", "/lokasi"],
   ];
 
