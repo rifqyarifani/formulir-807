@@ -54,14 +54,12 @@ export function DataTable<TData, TValue>({
 
   return (
     <div>
-      <div className="flex items-center pb-4 text-third">
+      <div className="flex items-center pb-4 text-fifth">
         <Input
-          placeholder="Cari Permohonan..."
-          value={
-            (table.getColumn(`permohonan`)?.getFilterValue() as string) ?? ""
-          }
+          placeholder="Cari Layanan..."
+          value={(table.getColumn(`layanan`)?.getFilterValue() as string) ?? ""}
           onChange={(event) =>
-            table.getColumn(`permohonan`)?.setFilterValue(event.target.value)
+            table.getColumn(`layanan`)?.setFilterValue(event.target.value)
           }
         />
       </div>
@@ -109,7 +107,7 @@ export function DataTable<TData, TValue>({
               <TableRow>
                 <TableCell
                   colSpan={columns.length}
-                  className="h-24 text-center font-black text-2xl bg-white text-third"
+                  className="h-24 text-center font-black text-2xl bg-white text-fifth"
                 >
                   Permohonan Tidak Ditemukan
                 </TableCell>

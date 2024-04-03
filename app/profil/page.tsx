@@ -14,7 +14,7 @@ const page = () => {
           Profil
         </h1>
       </div>
-      <div className=" flex bg-gray-100 flex-col md:flex-row items-center">
+      <div className=" flex bg-gray-100 flex-col md:flex-row items-center md:px-36">
         <Image
           src={bullsEye}
           alt="Bulls Eye"

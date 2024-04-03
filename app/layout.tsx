@@ -2,7 +2,12 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 import { Theme } from "@radix-ui/themes";
 import "@radix-ui/themes/styles.css";
 import type { Metadata } from "next";
-import { Montserrat } from "next/font/google";
+import {
+  Montserrat,
+  Plus_Jakarta_Sans,
+  Roboto_Condensed,
+  Roboto_Flex,
+} from "next/font/google";
 import NavBar from "./NavBar";
 import "./globals.css";
 import Footer from "./Footer";
@@ -29,11 +34,13 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
-            <NavBar />
-            <main className=" bg-gradient-to-b from-first to-second text-white">
+            <main
+              className={` ${montserrat.className} bg-gradient-to-b from-first to-second text-white font-sans`}
+            >
+              <NavBar />
               {children}
+              <Footer />
             </main>
-            <Footer />
           </ThemeProvider>
         </Theme>
       </body>

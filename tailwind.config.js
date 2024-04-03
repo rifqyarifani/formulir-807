@@ -15,6 +15,9 @@ module.exports = {
         "2xl": "1400px",
       },
     },
+    fontFamily: {
+      montserrat: "montserrat",
+    },
     extend: {
       backgroundImage: {
         hero: `url('/img/hero.jpg')`,
