@@ -38,9 +38,9 @@ const page = () => {
                   Penerimaan Negara melalui Penyelenggaraan Administrasi
                   Perpajakan yang Efisien, Efektif, Berintegritas, dan
                   Berkeadilan dalam rangka mendukung Visi Kementerian Keuangan:
-                  "Menjadi Pengelola Keuangan Negara untuk Mewujudkan
+                  &quot;Menjadi Pengelola Keuangan Negara untuk Mewujudkan
                   Perekonomian Indonesia yang Produktif, Kompetitif, Inklusif,
-                  dan Berkeadilan"
+                  dan Berkeadilan&quot;
                 </h2>
               </div>
             </div>
