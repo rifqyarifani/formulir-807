@@ -55,7 +55,7 @@ const NavBar = () => {
         }`}
       >
         <div
-          className={`flex h-14 font-bold items-center justify-between container p-6 md:px-36 `}
+          className={`flex h-16 font-bold items-center justify-between container p-6 md:px-36 `}
         >
           <p
             className="text-xl cursor-pointer hover:text-purple-100 transition duration-150"
@@ -67,7 +67,7 @@ const NavBar = () => {
                 alt="Kantor KPP Pratama Bantaeng"
                 fetchPriority="high"
                 decoding="async"
-                className=" w-10 h-10"
+                className=" w-12 h-12"
               />
             </Link>
           </p>
