@@ -3,7 +3,7 @@
         "id": "1",
         "layanan": "Pendaftaran NPWP",
         "formulir": [{"Formulir Pendaftaran WP OP dan Warisan Belum Terbagi": "https://drive.google.com/file/d/1ZQUPMZntP6CeuRUoQZu4eNLdSuOoYhwT/view?usp=sharing"}, {"Formulir Pendaftaran WP Badan": "https://drive.google.com/file/d/1uOIar79piFqeTSN3Fbr3iv43ryhmgOvd/view?usp=sharing"}, {"Formulir Pendaftaran WP Instansi Pemerintah": "https://drive.google.com/file/d/1D_3qEh4eqwblUT61W4_Qe3a7uPLAcOu8/view?usp=sharing"}, {"Surat Pernyataan Memilih Terpisah": "https://drive.google.com/file/d/1A0SroiOCmviOhA6v08vMq2_CoGp92rBs/view?usp=sharing"}],
-        "lampiran": [{"Orang Pribadi": ["WNI: FC KTP", "WNA: FC Paspor dan KITAS atau KITAP", "FC Kartu Keluarga"]}, {"Orang Pribadi Kawin Memilih Terpisah": ["FC KTP", "FC NPWP Suami", "FC KK atau Akta Perkawinan", "Surat Pernyataan Memilih Terpisah"]}, {"Badan" : ["FC KTP & NPWP Pengurus", "FC Dokumen Pendirian"]}, {"Badan KSO": ["FC Perjanjian Kerjasama atau Akta KSO", "FC NPWP Masing-Masing Anggota KSO", "FC KTP & NPWP Masing-Masing Pengurus KSO"]}, {"Cabang WP Badan": ["FC NPWP Pusat", "FC KTP & NPWP Penanggung Jawab Cabang"]}, {"Instansi Pemerintah": ["KEP Penunjukan KPA","FC KTP & NPWP KPA", "KEP Penunjukan Bendahara", "FC KTP & NPWP Bendahara"]}],
+        "lampiran": [{"Orang Pribadi": ["WNI: FC KTP", "WNA: FC Paspor dan KITAS atau KITAP", "FC Kartu Keluarga"]}, {"OP Kawin Memilih Terpisah": ["FC KTP", "FC NPWP Suami", "FC KK atau Akta Perkawinan", "Surat Pernyataan Memilih Terpisah"]}, {"Badan" : ["FC KTP & NPWP Pengurus", "FC Dokumen Pendirian"]}, {"Badan KSO": ["FC Perjanjian Kerjasama atau Akta KSO", "FC NPWP Masing-Masing Anggota KSO", "FC KTP & NPWP Masing-Masing Pengurus KSO"]}, {"Cabang WP Badan": ["FC NPWP Pusat", "FC KTP & NPWP Penanggung Jawab Cabang"]}, {"Instansi Pemerintah": ["KEP Penunjukan KPA","FC KTP & NPWP KPA", "KEP Penunjukan Bendahara", "FC KTP & NPWP Bendahara"]}],
         "jangkaWaktu": "1 Hari Kerja",
         "saluran": ["Online melalui ereg.pajak.go.id", "Langsung ke KPP/KP2KP"]
     },
@@ -33,14 +33,22 @@
     },
     {
         "id": "5",
-        "layanan": "Pengukuhan PKP",
-        "formulir": [{"Formulir Pengukuhan PKP": "https://drive.google.com/file/d/13UWKQbkVsCalNzKgAwKcJ2pWc6-Fys8y/view?usp=sharing"}],
-        "lampiran": [{"Orang Pribadi": ["FC NPWP","WNI: FC KTP", "WNA: FC Paspor dan KITAS atau KITAP", "Tidak Mempunyai Tunggakan Pajak", "Sudah Lapor SPT 2 Tahun Terakhir"]}, {"Badan" : ["FC NPWP Badan","FC KTP & NPWP Pengurus", "FC Dokumen Pendirian", "Tidak Mempunyai Tunggakan Pajak untuk Badan serta Seluruh Pengurusnya", "Sudah Lapor SPT 2 Tahun Terakhir untuk Badan serta Seluruh Pengurusnya"]}],
-        "jangkaWaktu": "1 Hari Kerja",
+        "layanan": "Pengukuhan dan Aktivasi Akun PKP",
+        "formulir": [{"Formulir Pengukuhan PKP": "https://drive.google.com/file/d/13UWKQbkVsCalNzKgAwKcJ2pWc6-Fys8y/view?usp=sharing"},{"Formulir Permintaan Aktivasi Akun PKP": "https://drive.google.com/file/d/1wgxIO74aAqXcfnfYi4ECn2vI2KkJfDrp/view?usp=sharing"}],
+        "lampiran": [{"Orang Pribadi": ["FC NPWP","WNI: FC KTP", "WNA: FC Paspor dan KITAS atau KITAP", "Tidak Mempunyai Tunggakan Pajak", "Sudah Lapor SPT 2 Tahun Terakhir", "Foto Lokasi Kegiatan Usaha", "Gambar Denah/Peta Lokasi Alamat"]}, {"Badan" : ["FC NPWP Badan","FC KTP & NPWP Pengurus", "FC Dokumen Pendirian", "Tidak Mempunyai Tunggakan Pajak untuk Badan serta Seluruh Pengurusnya", "Sudah Lapor SPT 2 Tahun Terakhir untuk Badan serta Seluruh Pengurusnya", "Foto Lokasi Kegiatan Usaha", "Gambar Denah/Peta Lokasi Alamat"]}],
+        "jangkaWaktu": "Pengukuhan 1 hari kerja; Aktivasi Akun 10 hari kerja",
         "saluran": ["Langsung ke KPP/KP2KP", "Dikirim melalui Pos ke KPP Pratama Bantaeng"]
     },
     {
         "id": "6",
+        "layanan": "Permintaan Sertifikat Elektronik",
+        "formulir": [{"Formulir Permintaan Sertifikat Elektronik": "https://drive.google.com/file/d/1TWXVDHRDB5H7XyI7RRF6lyfo2b6iHRcb/view?usp=sharing"}],
+        "lampiran": [{"Orang Pribadi": ["FC NPWP","WNI: FC KTP", "WNA: FC Paspor dan KITAS atau KITAP"]}, {"Badan" : ["FC NPWP Badan","FC KTP & NPWP Pengurus", "FC Dokumen Pendirian"]}],
+        "jangkaWaktu": "1 hari Kerja",
+        "saluran": ["Langsung ke KPP/KP2KP", "Dikirim melalui Pos ke KPP Pratama Bantaeng"]
+    },
+    {
+        "id": "7",
         "layanan": "Pencabutan Pengukuhan PKP",
         "formulir": [{"Formulir Pencabutan Pengukuhan PKP": "https://drive.google.com/file/d/1VtUvyh02EE0tfoQGp_hSpf9-8vHfrWAQ/view?usp=sharing"}],
         "lampiran": [{"Orang Pribadi": ["FC NPWP","WNI: FC KTP", "WNA: FC Paspor dan KITAS atau KITAP"]}, {"Badan" : ["FC NPWP Badan","FC KTP & NPWP Pengurus", "FC Dokumen Pendirian"]}],
@@ -49,7 +57,7 @@
 
     },
     {
-        "id": "7",
+        "id": "8",
         "layanan": "Pemindahan WP",
         "formulir": [{"Formulir Pemindahan WP": "https://drive.google.com/file/d/1ocOi3iEvfWNKtx_rlEgoCy682wYj4bKG/view?usp=sharing"}],
         "lampiran": [{"Orang Pribadi": ["FC NPWP","WNI: FC KTP", "WNA: FC Paspor dan KITAS atau KITAP"]}, {"Badan" : ["FC NPWP Badan","FC KTP & NPWP Pengurus", "FC Dokumen Pendirian"]}],
@@ -57,36 +65,28 @@
         "saluran": ["Langsung ke KPP/KP2KP", "Dikirim melalui Pos ke KPP Pratama Bantaeng"]
     },
     {
-        "id": "8",
-        "layanan": "Permintaan Kembali NPWP/SKT/SPPKP",
-        "formulir": [{"Formulir Permintaan Kembali": "https://drive.google.com/file/d/1N2LOLESBGDW3IWdgDbA5YYdXyWqzzD93/view?usp=sharing"}],
-        "lampiran": [{"Orang Pribadi": ["FC NPWP","WNI: FC KTP", "WNA: FC Paspor dan KITAS atau KITAP"]}, {"Badan" : ["FC NPWP Badan","FC KTP Pengurus", "FC NPWP Pengurus", "FC Dokumen Pendirian"]}],
-        "jangkaWaktu": "1 hari Kerja",
-        "saluran": ["Langsung ke KPP/KP2KP"]
-    },
-    {
         "id": "9",
         "layanan": "Penghapusan NPWP",
-        "formulir": [{"Formulir Penghapusan NPWP": "https://drive.google.com/file/d/1LtMjvPOcJ_EbglDKeB3Bp3kM86yCvimS/view?usp=sharing"},{"Surat Pernyataan NPWP Ganda Orang Pribadi": "https://drive.google.com/file/d/1qbRUVcq4P0mHSyN1tfxhRNo9mBumFvFy/view?usp=sharing"},{"Surat Pernyataan NPWP Ganda Badan": "https://drive.google.com/file/d/1YJSlf1SBK6-PA-KFrt4BeF118x3nvPxu/view?usp=sharing"},{"Surat Pernyataan Ahli Waris": "https://drive.google.com/file/d/1PGvq9gGcLtNuA5tmJLr4TAF4f1aSzL_b/view?usp=sharing"}],
-        "lampiran": [{"Orang Pribadi Meninggal": ["FC NPWP","FC KTP", "Akta Kematian", "Surat Pernyataan Ahli Waris", "FC KTP/KK Pemohon"]}, {"Orang Pribadi Memiliki NPWP Ganda": ["FC NPWP","FC KTP", "Surat Pernyataan NPWP Ganda Orang Pribadi"]},{"Badan" : ["FC NPWP Badan","FC KTP Pengurus", "FC NPWP Pengurus", "FC Akta Pembubaran/Surat Keterangan Tidak Ada Kegiatan Usaha"]},{"Badan Memiliki NPWP Ganda" : ["FC NPWP Badan","FC KTP & NPWP Pengurus", "FC Dokumen Pendirian", "Surat Pernyataan NPWP Ganda Badan"]}],
+        "formulir": [{"Formulir Penghapusan NPWP": "https://drive.google.com/file/d/1LtMjvPOcJ_EbglDKeB3Bp3kM86yCvimS/view?usp=sharing"},{"Surat Pernyataan NPWP Ganda Orang Pribadi": "https://drive.google.com/file/d/1qbRUVcq4P0mHSyN1tfxhRNo9mBumFvFy/view?usp=sharing"},{"Surat Pernyataan NPWP Ganda Badan": "https://drive.google.com/file/d/1YJSlf1SBK6-PA-KFrt4BeF118x3nvPxu/view?usp=sharing"},{"Surat Pernyataan Ahli Waris": "https://drive.google.com/file/d/1PGvq9gGcLtNuA5tmJLr4TAF4f1aSzL_b/view?usp=sharing"},{"Surat Pernyataan Memilih Gabung dengan NPWP Suami": "https://drive.google.com/file/d/1phH3bqeJ_OSxcWqeT9oOhURIXhfetuiu/view?usp=sharing"}],
+        "lampiran": [{"Orang Pribadi Meninggal": ["FC NPWP","FC KTP", "Akta Kematian", "Surat Pernyataan Ahli Waris", "FC KTP/KK Pemohon"]}, {"Istri Gabung NPWP dengan Suami": ["FC NPWP","FC KTP", "Surat Pernyataan Memilih Gabung dengan NPWP Suami"]},{"Orang Pribadi Memiliki NPWP Ganda": ["FC NPWP","FC KTP", "Surat Pernyataan NPWP Ganda Orang Pribadi"]}, {"Badan" : ["FC NPWP Badan","FC KTP Pengurus", "FC NPWP Pengurus", "FC Akta Pembubaran/Surat Keterangan Tidak Ada Kegiatan Usaha"]},{"Badan Memiliki NPWP Ganda" : ["FC NPWP Badan","FC KTP & NPWP Pengurus", "FC Dokumen Pendirian", "Surat Pernyataan NPWP Ganda Badan"]}],
         "jangkaWaktu": "6 Bulan (OP, WBT, IP); 12 Bulan (Badan)",
         "saluran": ["Langsung ke KPP", "Dikirim melalui Pos ke KPP Pratama Bantaeng"]
     },
     {
         "id": "10",
-        "layanan": "Permintaan Aktivasi Akun PKP",
-        "formulir": [{"Formulir Permintaan Aktivasi Akun PKP": "https://drive.google.com/file/d/1wgxIO74aAqXcfnfYi4ECn2vI2KkJfDrp/view?usp=sharing"}],
-        "lampiran": [{"Orang Pribadi": ["FC NPWP","WNI: FC KTP", "WNA: FC Paspor dan KITAS atau KITAP", "Pas Foto"]}, {"Badan" : ["FC NPWP Badan","FC KTP & NPWP Pengurus", "FC Dokumen Pendirian", "Pas Foto Pengurus"]}],
-        "jangkaWaktu": "10 hari Kerja",
-        "saluran": ["Langsung ke KPP/KP2KP", "Dikirim melalui Pos ke KPP Pratama Bantaeng"]
+        "layanan": "Pemindahbukuan (PBK)",
+        "formulir": [{"Formulir Pemindahbukuan": "https://drive.google.com/file/d/1jBZOQIZQQOu0-HkYX75q7o4BYu5zkqfo/view?usp=sharing"}, {"Surat Pernyataan Pemindahbukuan": "https://drive.google.com/file/d/1zcg0aubZsqevPMqPkW2PWoL8EKnqgB4J/view?usp=sharing"}],
+        "lampiran": [{"PBK ke NPWP yang sama": ["FC NPWP","FC Bukti Bayar"]}, {"PBK ke NPWP yang berbeda" : ["Surat Pernyataan PBK","FC NPWP", "FC Bukti Bayar"]}],
+        "jangkaWaktu": "21 hari",
+        "saluran": ["Langsung ke KPP", "Dikirim melalui Pos ke KPP Pratama Bantaeng"]
     },
     {
         "id": "11",
-        "layanan": "Permintaan Sertifikat Elektronik",
-        "formulir": [{"Formulir Permintaan Sertifikat Elektronik": "https://drive.google.com/file/d/1TWXVDHRDB5H7XyI7RRF6lyfo2b6iHRcb/view?usp=sharing"}],
-        "lampiran": [{"Orang Pribadi": ["FC NPWP","WNI: FC KTP", "WNA: FC Paspor dan KITAS atau KITAP"]}, {"Badan" : ["FC NPWP Badan","FC KTP & NPWP Pengurus", "FC Dokumen Pendirian"]}],
+        "layanan": "Permintaan Kembali NPWP/SKT/SPPKP",
+        "formulir": [{"Formulir Permintaan Kembali": "https://drive.google.com/file/d/1N2LOLESBGDW3IWdgDbA5YYdXyWqzzD93/view?usp=sharing"}],
+        "lampiran": [{"Orang Pribadi": ["FC NPWP","WNI: FC KTP", "WNA: FC Paspor dan KITAS atau KITAP"]}, {"Badan" : ["FC NPWP Badan","FC KTP Pengurus", "FC NPWP Pengurus", "FC Dokumen Pendirian"]}],
         "jangkaWaktu": "1 hari Kerja",
-        "saluran": ["Langsung ke KPP/KP2KP", "Dikirim melalui Pos ke KPP Pratama Bantaeng"]
+        "saluran": ["Langsung ke KPP/KP2KP"]
     },
     {
         "id": "12",
@@ -114,6 +114,22 @@
     },
     {
         "id": "15",
+        "layanan": "Validasi PHTB",
+        "formulir": [{"Formulir Validasi PHTB": "https://drive.google.com/file/d/1pE7mdDh6OVjee_--0Hp8VTP1ibORMX6X/view?usp=sharing"}],
+        "lampiran": [{"Orang Pribadi": ["FC KTP & NPWP Penjual dan Pembeli", "Surat Pernyataan Tidak Wajib Menggunakan NPWP (untuk penjual yang tidak mempunyai NPWP)", "Bukti Pembayaran", "FC Kuitansi Jual Beli", "FC BPHTB", "FC SPPT PBB Tahun Terakhir", "FC Sertifikat Kepemilikan", "FC Akta Jual Beli"]},{"Badan": ["FC KTP & NPWP Direktur", "FC NPWP Badan", "FC KTP & NPWP Pembeli", "Bukti Pembayaran", "FC Kuitansi Jual Beli", "FC BPHTB", "FC SPPT PBB Tahun Terakhir", "FC Sertifikat Kepemilikan", "FC Akta Jual Beli"]}],
+        "jangkaWaktu": "3 Hari Kerja",
+        "saluran": ["Langsung ke KPP/KP2KP"]
+    },
+    {
+        "id": "16",
+        "layanan": "Surat Keterangan Bebas (SKB)",
+        "formulir": [{"Formulir Surat Keterangan Bebas (SKB)": "https://drive.google.com/file/d/15wvzd1e2VsU0yVVIvgGy1oS0K61hq743/view?usp=sharing"},{"Surat Pernyataan Hibah": "https://drive.google.com/file/d/1enw_cJexOCTtWBN3_dP8gFR7iViRSnfh/view?usp=sharing"},{"Surat Pernyataan Waris": "https://drive.google.com/file/d/1X4Xy_pmhbCsQ2R2Qi_-vKWRb2o2NTkLa/view?usp=sharing"}],
+        "lampiran": [{"SKB Hibah": ["FC KTP & KK Pemberi dan Penerima Hibah", "FC SPPT PBB Tahun Terakhir", "FC Sertifikat Kepemilikan", "FC Akta Hibah"]}, {"SKB Waris" : ["FC KTP & KK Pemberi dan Penerima Waris", "FC Akta Kematian", "FC SPPT PBB Tahun Terakhir", "FC Sertifikat Kepemilikan", "FC Akta Pembagian Waris"]}],
+        "jangkaWaktu": "3 Hari Kerja",
+        "saluran": ["Langsung ke KPP", "Dikirim melalui Pos ke KPP Pratama Bantaeng"]
+    },
+    {
+        "id": "17",
         "layanan": "Pengurangan atau Penghapusan Sanksi Administrasi (Pasal 36 ayat (1) huruf a)",
         "formulir": [{"Formulir Pengurangan atau Penghapusan Sanksi Administrasi": "https://drive.google.com/file/d/1V_cEeBEStHuv2eg6fDPRZE31eEsYxxqV/view?usp=sharing"}],
         "lampiran": [{"Orang Pribadi atau Badan": ["Salinan STP atau SKP", "Surat kuasa dalam hal dikuasakan", "Salinan KTP Penerima Kuasa"]}],
@@ -121,7 +137,7 @@
         "saluran": ["Langsung ke KPP", "Dikirim melalui Pos ke KPP Pratama Bantaeng"]
     },
     {
-        "id": "16",
+        "id": "18",
         "layanan": "Pengurangan atau Pembatalan SKP (Pasal 36 ayat (1) huruf b)",
         "formulir": [{"Formulir Pengurangan atau Pembatalan SKP": "https://drive.google.com/file/d/1k13fYQYB4HF5OBD8REyV1l9n5xLiw7w2/view?usp=sharing"}],
         "lampiran": [{"Orang Pribadi atau Badan": ["Salinan SKP", "Surat kuasa dalam hal dikuasakan", "Salinan KTP Penerima Kuasa"]}],
@@ -129,7 +145,7 @@
         "saluran": ["Langsung ke KPP", "Dikirim melalui Pos ke KPP Pratama Bantaeng"]
     },
     {
-        "id": "17",
+        "id": "179",
         "layanan": "Pengurangan atau Pembatalan STP (Pasal 36 ayat (1) huruf c)",
         "formulir": [{"Formulir Pengurangan atau Pembatalan STP": "https://drive.google.com/file/d/1Egfqt0ThF0wY-I7g3H6IqRIFimPMZAd6/view?usp=sharing"}],
         "lampiran": [{"Orang Pribadi atau Badan": ["Salinan STP", "Surat kuasa dalam hal dikuasakan", "Salinan KTP Penerima Kuasa"]}],
@@ -137,7 +153,7 @@
         "saluran": ["Langsung ke KPP", "Dikirim melalui Pos ke KPP Pratama Bantaeng"]
     },
     {
-        "id": "18",
+        "id": "20",
         "layanan": "Pembatalan SKP Hasil Pemeriksaan (Pasal 36 ayat (1) huruf d)",
         "formulir": [{"Formulir Pembatalan SKP Hasil Pemeriksaan": "https://drive.google.com/file/d/17V5G2jr7KmXs4JILzlFyxNBA_rZCdua0/view?usp=sharing"}],
         "lampiran": [{"Orang Pribadi atau Badan": ["Salinan SKP", "Surat kuasa dalam hal dikuasakan", "Salinan KTP Penerima Kuasa"]}],

@@ -29,7 +29,7 @@ export const columns: ColumnDef<Dokumen>[] = [
     },
     cell: ({ row }) => (
       <Link href={`/layanan/${row.getValue("layanan")}`}>
-        <div className=" text-center font-normal text-gray-900 hover:text-gray-400">
+        <div className=" text-center font-medium text-fifth hover:text-gray-400">
           {" "}
           {row.getValue("layanan")}
         </div>

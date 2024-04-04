@@ -32,7 +32,7 @@ const DetailPage = async ({ params }: Props) => {
     <>
       <div className=" py-6 container md:px-36 ">
         <Link href="/layanan">
-          <div className="text-xs inline-flex items-center px-4 py-2 border border-transparent font-medium rounded-md text-first bg-balance hover:bg-opacity-70 bg-white mt-10 mb-5">
+          <div className="text-xs inline-flex items-center px-4 py-2 border border-transparent font-medium rounded-md text-first bg-balance hover:bg-opacity-70 bg-white mt-12 mb-5">
             <ChevronLeftIcon className="w-2.5 h-2.5" />
             <span className="ml-2">Kembali</span>
           </div>
@@ -42,7 +42,7 @@ const DetailPage = async ({ params }: Props) => {
             {layanan.layanan}
           </h1>
         </div>
-        <div className=" md:flex md:justify-between">
+        <div className=" grid md:grid-cols-3">
           <div className=" mb-8">
             {" "}
             <h2 className=" text-xl text-center text-white w-60 border-white border p-2 rounded-full font-black mb-2">
@@ -64,42 +64,35 @@ const DetailPage = async ({ params }: Props) => {
                     {detail[0]}
                   </div>
                 </a>
-                {/* <a
-                  href={detail[1]}
-                  target="_blank"
-                  className=""
-                  key={detail[0]}
-                >
-                  <FaDownload />
-                </a> */}
               </li>
             ))}
           </div>
-          <div>
-            <div className=" mb-8">
-              <h2 className=" text-xl text-center text-white w-60 border-white border p-2 rounded-full font-black mb-2">
-                Saluran Permohonan
-              </h2>
-              {layanan.saluran.map((obj: any) => (
-                <li key={obj}>{obj}</li>
-              ))}
-            </div>
-            <div className=" mb-8">
-              <h2 className=" text-xl text-center text-white w-60 border-white border p-2 rounded-full font-black mb-2">
-                Jangka Waktu
-              </h2>
-              <ol>
-                <li>{layanan.jangkaWaktu}</li>
-              </ol>
-            </div>
+          <div className=" mb-8">
+            <h2 className=" text-xl text-center text-white w-60 border-white border p-2 rounded-full font-black mb-2">
+              Saluran Layanan
+            </h2>
+            {layanan.saluran.map((obj: any) => (
+              <li key={obj}>{obj}</li>
+            ))}
           </div>
+          <div className=" mb-8">
+            <h2 className=" text-xl text-center text-white w-60 border-white border p-2 rounded-full font-black mb-2">
+              Jangka Waktu
+            </h2>
+            <ol>
+              <li>{layanan.jangkaWaktu}</li>
+            </ol>
+          </div>
+          {/* <div>
+        
+          </div> */}
         </div>
 
         <div>
           <h2 className=" text-xl text-center text-white w-60 border-white border p-2 rounded-full font-black mb-2">
             Lampiran
           </h2>
-          <div className={`grid md:grid-cols-2`}>
+          <div className={`grid md:grid-cols-3 gap-8`}>
             {lampiranList.map((detail: any, index: any) => (
               <div key={index} className=" ws">
                 <h2
@@ -110,7 +103,7 @@ const DetailPage = async ({ params }: Props) => {
                 </h2>
                 <div>
                   {detail[1].map((x: any) => (
-                    <li key={x} className=" font-normal list-disc ml-6">
+                    <li key={x} className=" font-normal list-disc ml-2">
                       {x}
                     </li>
                   ))}
