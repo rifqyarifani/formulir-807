@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import visiMisi from "@/img/visiMisi.png";
+import arrowLogo from "@/img/arrowLogo.png";
 import { GiBullseye } from "react-icons/gi";
 import bullsEye from "@/img/bullseye.png";
 import { BiSolidBinoculars } from "react-icons/bi";
@@ -16,11 +16,11 @@ const page = () => {
       </div>
       <div className=" flex bg-gray-100 flex-col md:flex-row items-center md:px-36">
         <Image
-          src={bullsEye}
+          src={arrowLogo}
           alt="Bulls Eye"
           fetchPriority="high"
           decoding="async"
-          className="object-cover w-1/3 md:block hidden"
+          className="object-cover w-2/5 md:block hidden"
         />
         <div className=" w-full flex flex-col gap-4 py-4">
           <h1 className=" font-black text-2xl uppercase text-center text-[#3e0b3f]">
