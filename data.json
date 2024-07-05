@@ -62,7 +62,7 @@
         "formulir": [{"Formulir Pemindahan WP": "https://drive.google.com/file/d/1ocOi3iEvfWNKtx_rlEgoCy682wYj4bKG/view?usp=sharing"}],
         "lampiran": [{"Orang Pribadi": ["FC NPWP","WNI: FC KTP", "WNA: FC Paspor dan KITAS atau KITAP"]}, {"Badan" : ["FC NPWP Badan","FC KTP & NPWP Pengurus", "FC Dokumen Pendirian"]}],
         "jangkaWaktu": "5 hari Kerja",
-        "saluran": ["Langsung ke KPP/KP2KP", "Dikirim melalui Pos ke KPP Pratama Bantaeng"]
+        "saluran": ["Langsung ke KPP/KP2KP", "Dikirim melalui Pos ke KPP Pratama Bantaeng", "Dapat Diajukan ke KPP Tujuan ataupun KPP terdaftar"]
     },
     {
         "id": "9",
@@ -82,7 +82,7 @@
     },
     {
         "id": "11",
-        "layanan": "Permintaan Kembali NPWP/SKT/SPPKP",
+        "layanan": "Permintaan Kembali NPWP atau SKT atau SKPPKP",
         "formulir": [{"Formulir Permintaan Kembali": "https://drive.google.com/file/d/1N2LOLESBGDW3IWdgDbA5YYdXyWqzzD93/view?usp=sharing"}],
         "lampiran": [{"Orang Pribadi": ["FC NPWP","WNI: FC KTP", "WNA: FC Paspor dan KITAS atau KITAP"]}, {"Badan" : ["FC NPWP Badan","FC KTP Pengurus", "FC NPWP Pengurus", "FC Dokumen Pendirian"]}],
         "jangkaWaktu": "1 hari Kerja",
