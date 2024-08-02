@@ -23,7 +23,7 @@ const page = () => {
           className="object-cover w-2/5 md:block hidden"
         />
         <div className=" w-full flex flex-col gap-4 py-4">
-          <h1 className=" font-black text-2xl uppercase text-center text-[#3e0b3f]">
+          <h1 className=" font-extrabold text-2xl uppercase text-center text-[#3e0b3f]">
             VISI DAN MISI
           </h1>
           <div className=" w-full px-6">
@@ -33,7 +33,7 @@ const page = () => {
               </div>
               <div className=" max-w-lg flex flex-col">
                 <h1 className=" text-xl font-bold">VISI</h1>
-                <h2 className=" font-light text-sm text-justify">
+                <h2 className=" font-normal text-sm text-justify">
                   Menjadi Mitra Tepercaya Pembangunan Bangsa untuk Menghimpun
                   Penerimaan Negara melalui Penyelenggaraan Administrasi
                   Perpajakan yang Efisien, Efektif, Berintegritas, dan
@@ -52,7 +52,7 @@ const page = () => {
               </div>
               <div className=" max-w-lg flex flex-col">
                 <h1 className=" text-xl font-bold">MISI</h1>
-                <ol className=" list-decimal font-light text-sm ml-3 text-justify">
+                <ol className=" list-decimal font-normal text-sm ml-3 text-justify">
                   <li>
                     Merumuskan regulasi perpajakan yang mendukung pertumbuhan
                     ekonomi Indonesia;

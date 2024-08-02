@@ -51,7 +51,7 @@ const DetailPage = async ({ params }: Props) => {
             {formulirList.map((detail: any) => (
               <li
                 key={detail}
-                className=" py-1 flex items-center gap-2 text-white hover:opacity-70 underline underline-offset-4 decoration-2 decoration-white text-base"
+                className=" py-1 flex items-center gap-2 text-white hover:opacity-70 underline underline-offset-4 decoration-2 decoration-white text-base font-medium"
               >
                 <a
                   href={detail[1]}
@@ -72,7 +72,9 @@ const DetailPage = async ({ params }: Props) => {
               Saluran Layanan
             </h2>
             {layanan.saluran.map((obj: any) => (
-              <li key={obj}>{obj}</li>
+              <li className=" font-medium" key={obj}>
+                {obj}
+              </li>
             ))}
           </div>
           <div className=" mb-8">
@@ -80,7 +82,7 @@ const DetailPage = async ({ params }: Props) => {
               Jangka Waktu
             </h2>
             <ol>
-              <li>{layanan.jangkaWaktu}</li>
+              <li className=" font-medium">{layanan.jangkaWaktu}</li>
             </ol>
           </div>
           {/* <div>
@@ -97,13 +99,13 @@ const DetailPage = async ({ params }: Props) => {
               <div key={index} className=" ws">
                 <h2
                   key={detail}
-                  className=" py-2 font-medium text-lg  underline underline-offset-4 decoration-2 decoration-white"
+                  className=" py-2 font-semibold text-lg  underline underline-offset-4 decoration-2 decoration-white"
                 >
                   {detail[0]}
                 </h2>
                 <div>
                   {detail[1].map((x: any) => (
-                    <li key={x} className=" font-normal list-disc ml-2">
+                    <li key={x} className=" font-medium list-disc ml-2">
                       {x}
                     </li>
                   ))}

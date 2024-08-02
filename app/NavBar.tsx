@@ -61,14 +61,15 @@ const NavBar = () => {
             className="text-xl cursor-pointer hover:text-purple-100 transition duration-150"
             onClick={goTop}
           >
-            <Link href="/" legacyBehavior passHref>
-              <Image
+            <Link href="/" legacyBehavior passHref className="">
+              SIRUJAK
+              {/* <Image
                 src={logo}
                 alt="Kantor KPP Pratama Bantaeng"
                 fetchPriority="high"
                 decoding="async"
                 className=" w-12 h-12"
-              />
+              /> */}
             </Link>
           </p>
           <ul className=" md:flex gap-6 text-lg hidden">

@@ -54,7 +54,7 @@ export function DataTable<TData, TValue>({
 
   return (
     <div>
-      <div className="flex items-center pb-4 text-fifth">
+      <div className="flex items-center pb-4 text-fifth font-medium">
         <Input
           placeholder="Cari Layanan..."
           value={(table.getColumn(`layanan`)?.getFilterValue() as string) ?? ""}
@@ -107,7 +107,7 @@ export function DataTable<TData, TValue>({
               <TableRow>
                 <TableCell
                   colSpan={columns.length}
-                  className="h-24 text-center font-black text-2xl bg-white text-fifth"
+                  className="h-24 text-center font-bold text-2xl bg-white text-fifth"
                 >
                   Permohonan Tidak Ditemukan
                 </TableCell>

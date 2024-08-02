@@ -29,17 +29,17 @@ const Main = async () => {
             Situs Rumah Pajak Bantaeng
           </h1>
         </div> */}
-        <div className=" text-center bg-white p-2 font-black">
+        <div className=" text-center bg-white p-2 font-extrabold">
           <h1 className=" md:text-4xl text-2xl bg-gradient-to-r from-pink-500 to-purple-400 inline-block text-transparent bg-clip-text">
             Pajak Kuat APBN Sehat
           </h1>
         </div>
         <div className=" text-center flex flex-col gap-4">
           <div className=" container md:px-36 p-4 flex flex-col gap-2">
-            <h1 className="  text-white font-black md:text-4xl text-2xl uppercase">
+            <h1 className="  text-white font-extrabold md:text-4xl text-2xl uppercase">
               Maklumat Pelayanan
             </h1>
-            <p className=" font-light text-base text-white">
+            <p className=" font-medium text-base text-white">
               Dengan ini kami menyatakan sanggup menyelenggarakan pelayanan
               sesuai Standar Pelayanan yang telah di tetapkan dan apabila tidak
               menepati janji ini, kami siap menerima saksi sesuai peraturan
@@ -49,7 +49,7 @@ const Main = async () => {
         </div>
         <div className=" text-center flex flex-col gap-4 bg-white text-second">
           <div className=" container md:px-36 p-4 flex flex-col gap-2">
-            <h1 className=" text-first font-black uppercase md:text-4xl text-2xl">
+            <h1 className=" text-first font-extrabold uppercase md:text-4xl text-2xl">
               Saluran Pengaduan Pelayanan
             </h1>
             <div className=" flex flex-wrap md:flex-row gap-8 md:justify-between justify-center text-sm md:text-base">
@@ -58,15 +58,17 @@ const Main = async () => {
                   <div className=" w-14 h-14 md:w-20 md:h-20 bg-gradient-to-r from-pink-500 to-purple-500 hover:opacity-70 flex justify-center items-center rounded-full">
                     <BsFillTelephoneFill className=" text-2xl md:text-5xl text-white" />
                   </div>
-                  <h1 className="text-first">1500200</h1>
+                  <h1 className="text-first font-medium">1500200</h1>
                 </div>
               </Link>
-              <Link href="mailto:pengaduan@pajak.go.id" target="_blank">
+              <Link href="mailto:rifqy.arifani44@gmail.com" target="_blank">
                 <div className=" flex flex-col items-center">
                   <div className=" w-14 h-14 md:w-20 md:h-20 bg-gradient-to-r from-pink-500 to-purple-500 hover:opacity-70 flex justify-center items-center rounded-full">
                     <MdEmail className=" text-2xl md:text-5xl text-white" />
                   </div>
-                  <h1 className=" text-first">pengaduan@pajak.go.id</h1>
+                  <h1 className=" text-first font-medium">
+                    pengaduan@pajak.go.id
+                  </h1>
                 </div>
               </Link>
               <Link href="https://twitter.com/kringpajak" target="_blank">
@@ -74,7 +76,7 @@ const Main = async () => {
                   <div className=" w-14 h-14 md:w-20 md:h-20 bg-gradient-to-r from-pink-500 to-purple-500 hover:opacity-70 flex justify-center items-center rounded-full">
                     <FaTwitter className=" text-2xl md:text-5xl text-white" />
                   </div>
-                  <h1 className=" text-first">@kring_pajak</h1>
+                  <h1 className=" text-first font-medium">@kring_pajak</h1>
                 </div>
               </Link>
               <Link href="https://pengaduan.pajak.go.id/form" target="_blank">
@@ -82,7 +84,9 @@ const Main = async () => {
                   <div className=" w-14 h-14 md:w-20 md:h-20 bg-gradient-to-r from-pink-500 to-purple-500 hover:opacity-70 flex justify-center items-center rounded-full">
                     <TbWorldWww className=" text-2xl md:text-5xl text-white" />
                   </div>
-                  <h1 className=" text-first">pengaduan.pajak.go.id</h1>
+                  <h1 className=" text-first font-medium">
+                    pengaduan.pajak.go.id
+                  </h1>
                 </div>
               </Link>
               <Link href="https://www.pajak.go.id" target="_blank">
@@ -90,7 +94,7 @@ const Main = async () => {
                   <div className=" w-14 h-14 md:w-20 md:h-20 bg-gradient-to-r from-pink-500 to-purple-500 hover:opacity-70 flex justify-center items-center rounded-full">
                     <MdChatBubble className=" text-2xl md:text-5xl text-white" />
                   </div>
-                  <h1 className=" text-first">Chat Pajak</h1>
+                  <h1 className=" text-first font-medium">Chat Pajak</h1>
                 </div>
               </Link>
             </div>
