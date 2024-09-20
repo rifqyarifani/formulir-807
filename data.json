@@ -45,7 +45,7 @@
         "formulir": [{"Formulir Permintaan Sertifikat Elektronik": "https://drive.google.com/file/d/1TWXVDHRDB5H7XyI7RRF6lyfo2b6iHRcb/view?usp=sharing"}],
         "lampiran": [{"Orang Pribadi": ["Salinan NPWP","WNI: Salinan KTP", "WNA: Salinan Paspor dan KITAS atau KITAP"]}, {"Badan" : ["Salinan NPWP Badan","Salinan KTP & NPWP Pengurus", "Salinan Dokumen Pendirian"]}, {"Instansi Pemerintah": ["Salinan NPWP Instansi Pemerintah","KEP Penunjukan KPA","Salinan KTP & NPWP KPA", "KEP Penunjukan Bendahara", "Salinan KTP & NPWP Bendahara"]}],
         "jangkaWaktu": "1 hari Kerja",
-        "saluran": ["Langsung ke KPP/KP2KP", "Dikirim melalui Pos ke KPP Pratama Bantaeng"]
+        "saluran": ["Langsung ke KPP/KP2KP"]
     },
     {
         "id": "7",
