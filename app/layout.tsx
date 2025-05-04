@@ -2,6 +2,7 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 import { Theme } from "@radix-ui/themes";
 import "@radix-ui/themes/styles.css";
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/react";
 import {
   Montserrat,
   Plus_Jakarta_Sans,
@@ -39,6 +40,7 @@ export default function RootLayout({
             >
               <NavBar />
               {children}
+              <Analytics />
               <Footer />
             </main>
           </ThemeProvider>
