@@ -308,7 +308,7 @@
                 "Badan": [
                     "Salinan NPWP Badan",
                     "Salinan KTP & NPWP Pengurus",
-                    "Salinan Dokumen Pendirian"
+                    "Salinan Dokumen Akta Perubahan"
                 ]
             }
         ],
@@ -391,32 +391,25 @@
         "layanan": "Pemindahbukuan (PBK)",
         "formulir": [
             {
-                "Formulir Pemindahbukuan": "https://drive.google.com/file/d/1jBZOQIZQQOu0-HkYX75q7o4BYu5zkqfo/view?usp=sharing"
+                "Formulir Pemindahbukuan (Excel)": "https://docs.google.com/spreadsheets/d/1sshFZQDUCs4Q_cwyzV4pcXkz03sGEi7y/edit?usp=drive_link&ouid=102329000157182996296&rtpof=true&sd=true"
             },
             {
-                "Surat Pernyataan Pemindahbukuan": "https://drive.google.com/file/d/1zcg0aubZsqevPMqPkW2PWoL8EKnqgB4J/view?usp=sharing"
+                "Formulir Pemindahbukuan (Word)": "https://docs.google.com/document/d/1GLvCCigmvbbI1xSOKA9cq-VwkGKOXq5l/edit?usp=drive_link&ouid=102329000157182996296&rtpof=true&sd=true"
             }
         ],
         "lampiran": [
             {
-                "PBK ke NPWP yang sama": [
-                    "Salinan NPWP",
-                    "Salinan Bukti Bayar"
-                ]
-            },
-            {
-                "PBK ke NPWP yang berbeda": [
-                    "Surat Pernyataan PBK",
-                    "Salinan NPWP",
+                "Orang Pribadi atau Badan": [
+                    "Salinan NPWP dan KTP",
                     "Salinan Bukti Bayar"
                 ]
             }
         ],
-        "jangkaWaktu": "21 hari",
+        "jangkaWaktu": "10 Hari Kerja (Untuk Pembayaran Setelah 1 Januari 2025) ; 21 Hari Kerja (Untuk Pembayaran s.d 31 Desember 2024)",
         "saluran": [
             "Langsung ke KPP",
             "Dikirim melalui Pos ke KPP Pratama Bantaeng",
-            "e-PBK DJP Online"
+            "Online melalui coretaxdjp.pajak.go.id"
         ]
     },
     {
@@ -441,28 +434,6 @@
                     "Salinan KTP Pengurus",
                     "Salinan NPWP Pengurus",
                     "Salinan Dokumen Pendirian"
-                ]
-            }
-        ],
-        "jangkaWaktu": "1 hari Kerja",
-        "saluran": [
-            "Langsung ke KPP/KP2KP"
-        ]
-    },
-    {
-        "id": "12",
-        "layanan": "Cetak NPWP Anggota Keluarga",
-        "formulir": [
-            {
-                "Formulir Cetak NPWP Anggota Keluarga": "https://drive.google.com/file/d/1K1rnp97f6h9o4WZU3vqPmKKncEMdx9SC/view?usp=sharing"
-            }
-        ],
-        "lampiran": [
-            {
-                "Orang Pribadi": [
-                    "Salinan NPWP Kepala Keluarga",
-                    "Salinan KTP",
-                    "Salinan KK"
                 ]
             }
         ],
@@ -740,7 +711,7 @@
         "layanan": "Pengembalian Kelebihan Pembayaran Pajak",
         "formulir": [
             {
-                "Formulir Pengembalian Kelebihan Pembayaran Pajak": "https://drive.google.com/file/d/1C1X17m--qcy48ZrLZHIYapVtHCgfFJMf/view?usp=drive_link"
+                "Formulir Pengembalian Kelebihan Pembayaran Pajak": "https://docs.google.com/spreadsheets/d/1i7D11137RwXxtQleNt0CqxETu_wGFQw6/edit?usp=drive_link&ouid=102329000157182996296&rtpof=true&sd=true"
             }
         ],
         "lampiran": [
@@ -762,7 +733,8 @@
         "jangkaWaktu": "3 Bulan",
         "saluran": [
             "Langsung ke KPP",
-            "Dikirim melalui Pos ke KPP Pratama Bantaeng"
+            "Dikirim melalui Pos ke KPP Pratama Bantaeng",
+            "Online melalui coretaxdjp.pajak.go.id"
         ]
     }
 ]
